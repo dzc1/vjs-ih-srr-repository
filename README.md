@@ -1,15 +1,35 @@
-# H1
+## Comandos de Git
 
-# My biography
+Sigue estos pasos para hacer cambios en tu repositorio:
 
-Diego Zito
+Para subir tus cambios al stream de git tienes que `añadir` tus cambios recientes mediante el siguiente comando:
 
-## H2
+`Añadir` todos tus cambios:
 
-## Mi first cool comment
-
-Este es mi primer archivo que cambio en Github :) .
-
+```bash
 git add .
-git commit -m "mensaje dscriptivo sencillo"
-git push origin main
+```
+
+`Añadir` cambio individual por nombre de archivo:
+
+```bash
+git add "nombre de archivo ej: 01-bsaic-layout.html"
+```
+
+`Añadirle` un `comentario` al `commit` que estaremos empujando a tu repositorio en la web.
+
+```bash
+git commit -m "Texto descriptivo de los cambios recientes"
+```
+
+`Empujar` los cambios recientes a tu repositorio en la web. `Extended`.
+
+```bash
+git push origin "nombre del branch/rama que estaremos apuntando"
+```
+
+`Empujar` los cambios recientes a tu repositorio en la web. `Simplified`.
+
+```bash
+git push
+```
