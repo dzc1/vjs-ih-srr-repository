@@ -59,3 +59,25 @@ git push origin "nombre del branch/rama que estaremos apuntando"
 ```bash
 git push
 ```
+
+## Shortcuts (Atajos de teclado)
+Los atajos de teclado hacen que seas más productivo y feliz. En general son como ese buen amigo del que te puedes fiar no para que haga su trabajo, pero sí para que te lo haga menos pesado. 
+
+Aprende a usarlos, pero tampoco pierdas la cabeza. Con que te centres en los más comunes ya ganarás mucho. 
+  - Guardar archivo en VS Code.   Windows: Control + S.   MAC: Command + S
+  - Plegar y desplegar la consola.  Windows: Control + Ñ.   MAC: 
+  - Plegar y desplegar la jerarquía. Windows: Control + B.   MAC: Command + B
+  - Colocar una ventana en la mitad derecha/izquierda de la pantalla. Windows: windows + derecha/izquierda.   MAC: Pluggin de las gafitas
+  - Navegar entre ventanas. Windows: alt o windows + tabulador.   MAC: Command + tabulador.
+
+El resto de atajos te recomendamos que solo los aprendas cuando veas que los necesitas. Échale un vistazo por encima a las listas para que por lo menos te suenen y sepas que existen, pero no gastes tiempo en aprender algo que jamás usarás. 
+
+Si quieres saber más, visita los siguientes enlaces. 
+
+[Windows shortcuts]([https://ironhack.zoom.us/j/91218132607](https://support.microsoft.com/es-es/windows/m%C3%A9todos-abreviados-de-teclado-de-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec))
+[Windows VS Code shortcuts]([https://ironhack.zoom.us/j/91218132607](https://carontestudio.com/blog/atajos-de-teclado-en-visual-studio-code/))
+
+[MAC shortcuts](https://support.apple.com/es-es/HT201236)
+[MAC VS Code shortcuts](https://manolohidalgo.com/atajos-de-teclado-en-visual-studio-code-para-mac/)
+
+
