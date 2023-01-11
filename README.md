@@ -106,9 +106,9 @@ Los atajos de teclado hacen que seas más productivo y feliz. En general son com
 
 Aprende a usarlos, pero tampoco pierdas la cabeza. Con que te centres en los más comunes ya ganarás mucho. 
   - Guardar archivo en VS Code.   Windows: Control + S.   MAC: Command + S
-  - Plegar y desplegar la consola.  Windows: Control + Ñ.   MAC: 
+  - Plegar y desplegar la consola.  Windows: Control + Ñ.   MAC: Shift + command + C
   - Plegar y desplegar la jerarquía. Windows: Control + B.   MAC: Command + B
-  - Colocar una ventana en la mitad derecha/izquierda de la pantalla. Windows: windows + derecha/izquierda.   MAC: Pluggin de las gafitas
+  - Colocar una ventana en la mitad derecha/izquierda de la pantalla. Windows: windows + derecha/izquierda.   MAC: [Spectacle](https://www.spectacleapp.com/)
   - Navegar entre ventanas. Windows: alt o windows + tabulador.   MAC: Command + tabulador.
 
 El resto de atajos te recomendamos que solo los aprendas cuando veas que los necesitas. Échale un vistazo por encima a las listas para que por lo menos te suenen y sepas que existen, pero no gastes tiempo en aprender algo que jamás usarás. 
