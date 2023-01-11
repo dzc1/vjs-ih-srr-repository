@@ -63,11 +63,11 @@
   - [CSS Shadows](https://htmlcssfreebies.com/css-box-shadow-examples/)
   - [CSS Animations](https://animista.net/)
   - [CSS Buttons with Animations](https://htmlcssfreebies.com/pheasant-demure-buttons/)
+  <!-- - []()
   - []()
   - []()
   - []()
-  - []()
-  - []()
+  - []() -->
 
 ## Comandos de Git
 
