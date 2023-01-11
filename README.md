@@ -74,8 +74,8 @@ El resto de atajos te recomendamos que solo los aprendas cuando veas que los nec
 
 Si quieres saber más, visita los siguientes enlaces. 
 
-[Windows shortcuts]([https://ironhack.zoom.us/j/91218132607](https://support.microsoft.com/es-es/windows/m%C3%A9todos-abreviados-de-teclado-de-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec))
-[Windows VS Code shortcuts]([https://ironhack.zoom.us/j/91218132607](https://carontestudio.com/blog/atajos-de-teclado-en-visual-studio-code/))
+[Windows shortcuts](https://support.microsoft.com/es-es/windows/m%C3%A9todos-abreviados-de-teclado-de-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec)
+[Windows VS Code shortcuts](https://carontestudio.com/blog/atajos-de-teclado-en-visual-studio-code/)
 
 [MAC shortcuts](https://support.apple.com/es-es/HT201236)
 [MAC VS Code shortcuts](https://manolohidalgo.com/atajos-de-teclado-en-visual-studio-code-para-mac/)
