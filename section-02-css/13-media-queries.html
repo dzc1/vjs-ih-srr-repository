@@ -4,82 +4,87 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-
+    <title>Media Queries</title>
     <style>
-        body {
-          font-family: Arial, Helvetica, sans-serif;
-          background: gray;
-          color: white;
-          text-align: center;
-          padding-top: 100px;
-        }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background: gray;
+        color: white;
+        text-align: center;
+        padding-top: 100px;
+      }
 
-        h1 {
-          display: none;
-        }
+      h1 {
+        display: none;
+      }
 
-        a {
-          color: white;
-        }
-        a:hover {
-          color: blue;
-        }
+      a {
+        color: white;
+      }
+      a:hover {
+        color: blue;
+      }
 
-        /* SmartPhones */
+      /* SmartPhones */
 
-        /* 1ra Manera */
-        @media only screen  and (max-width: 550px) {}
-        /* 2da Manera */
-        @media (min-width: 551px) and (max-width: 700px) {
+      /* 1ra Manera */
+      @media only screen and (max-width: 550px) {
+      }
+      /* 2da Manera */
+      @media (min-width: 551px) and (max-width: 700px) {
+      }
       /* 3ra Manera */
+      @media (min-width: 540px) {
+      }
+      @media (max-width: 540px) {
+      }
 
-        @media only screen and (max-width: 500px) {
-          body {
-            background: red;
-          }
-          #smartphone h1 {
-            display: block;
-          }
+      @media only screen and (max-width: 500px) {
+        body {
+          background: red;
+        }
+        #smartphone h1 {
+          display: block;
+        }
+      }
+
+      /* Tablet */
+      @media (min-width: 501px) and (max-width: 768px) {
+        body {
+          background: blue;
+        }
+        #tablet h1 {
+          display: block;
         }
 
-        /* Tablet */
-        @media (min-width: 501px) and (max-width: 768px) {
-          body {
-            background: blue;
-          }
-          #tablet h1 {
-            display: block;
-          }
+        a:hover {
+          color: black;
+        }
+      }
 
-          a:hover {
-            color: black;
-          }
+      /* wideScreen */
+      @media (min-width: 1201px) {
+        body {
+          background: orange;
+        }
+        #widescreen h1 {
+          display: block;
+        }
+        p {
+          color: black;
+        }
+      }
+
+      /* Landscape */
+      @media (max-height: 500px) {
+        body {
+          background: black;
         }
 
-        /* wideScreen */
-        @media (min-width: 1201px) {
-          body {
-            background: orange;
-          }
-          #widescreen h1 {
-            display: block;
-          }
-          p {
-            color: black;
-          }
+        #landscape h1 {
+          display: block;
         }
-
-        /* Landscape */
-        @media (max-height: 500px) {
-          body {
-            background: black;
-          }
-
-          #landscape h1 {
-            display: block;
-          }
-        }
+      }
     </style>
   </head>
   <body>
