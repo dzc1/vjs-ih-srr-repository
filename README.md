@@ -63,6 +63,7 @@
   - [CSS Shadows](https://htmlcssfreebies.com/css-box-shadow-examples/)
   - [CSS Animations](https://animista.net/)
   - [CSS Buttons with Animations](https://htmlcssfreebies.com/pheasant-demure-buttons/)
+  - [Media Query CheatSheet](https://gist.github.com/bartholomej/8415655)
   <!-- - []()
   - []()
   - []()
