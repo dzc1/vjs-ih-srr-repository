@@ -117,6 +117,13 @@ Aprende a usarlos, pero tampoco pierdas la cabeza. Con que te centres en los má
 - Plegar y desplegar la jerarquía. Windows: Control + B. MAC: Command + B
 - Colocar una ventana en la mitad derecha/izquierda de la pantalla. Windows: windows + derecha/izquierda. MAC: [Spectacle](https://www.spectacleapp.com/)
 - Navegar entre ventanas. Windows: alt o windows + tabulador. MAC: Command + tabulador.
+- Navegar por un texto. 
+  - Windows: 
+    - Control + flecha de dirección -> Salta hasta el próximo caracter especial
+    - Shift + flecha de dirección -> Selecciona los caracteres sobre los que pases con el cursor. 
+  - MAC: 
+    - Command + flecha de dirección -> Salta hasta el próximo caracter especial
+    - Shift + flecha de dirección -> Selecciona los caracteres sobre los que pases con el cursor.    
 
 El resto de atajos te recomendamos que solo los aprendas cuando veas que los necesitas. Échale un vistazo por encima a las listas para que por lo menos te suenen y sepas que existen, pero no gastes tiempo en aprender algo que jamás usarás.
 
