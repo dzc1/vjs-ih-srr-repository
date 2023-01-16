@@ -13,7 +13,7 @@
  Quote of the class
 </p>
 <p align="center" style="font:16px; font-style:italic">
- "Still deciding what quote to use :)"
+ "TAMO ACTIVO, TAMO READY"
 </p>
 
 ## Link a Zoom

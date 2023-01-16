@@ -264,3 +264,7 @@ console.log(num == string);
 console.log(num === string);
 //3rd Case
 console.log(num !== string);
+//4th
+console.log(num >= 7);
+//5th
+console.log(num === string || num <= 3);
