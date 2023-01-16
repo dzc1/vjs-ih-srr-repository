@@ -263,39 +263,39 @@ switch (switchExampleTwo) {
 // SWITCH EXAMPLE - CALCULATOR
 // program for a simple calculator
 // inicializamos una variable para poder asignarle un valor luego (operacion matematica)
-let result;
+// let result;
 
 // Input del operando que el usuario va a usar  (x, +, -, /)
-const operator = prompt("Enter operator that you want to use (x, +, -, /):");
+// const operator = prompt("Enter operator that you want to use (x, +, -, /):");
 
 // 2 variables que tengan la capacidad de recibir los nums que el usuario va a "CALCULAR":
-const calcNumOne = parseFloat(prompt("Enter 1st number:"));
-const calcNumTwo = parseFloat(prompt("Enter 1st number:"));
+// const calcNumOne = parseFloat(prompt("Enter 1st number:"));
+// const calcNumTwo = parseFloat(prompt("Enter 1st number:"));
 
 // montemos switch statement
-switch (operator) {
-  case "+":
-    result = calcNumOne + calcNumTwo;
-    console.log(`${calcNumOne} + ${calcNumTwo} = ${result}`);
-    break;
-  case "-":
-    result = calcNumOne - calcNumTwo;
-    console.log(`${calcNumOne} - ${calcNumTwo} = ${result}`);
-    break;
-  case "*":
-    result = calcNumOne * calcNumTwo;
-    console.log(`${calcNumOne} * ${calcNumTwo} = ${result}`);
-    break;
-  case "/":
-    result = calcNumOne / calcNumTwo;
-    console.log(`${calcNumOne} / ${calcNumTwo} = ${result}`);
-    break;
-  default:
-    console.log(
-      "Invalid operator, please choose one of the following: (x, +, -, /)"
-    );
-    break;
-}
+// switch (operator) {
+//   case "+":
+//     result = calcNumOne + calcNumTwo;
+//     console.log(`${calcNumOne} + ${calcNumTwo} = ${result}`);
+//     break;
+//   case "-":
+//     result = calcNumOne - calcNumTwo;
+//     console.log(`${calcNumOne} - ${calcNumTwo} = ${result}`);
+//     break;
+//   case "*":
+//     result = calcNumOne * calcNumTwo;
+//     console.log(`${calcNumOne} * ${calcNumTwo} = ${result}`);
+//     break;
+//   case "/":
+//     result = calcNumOne / calcNumTwo;
+//     console.log(`${calcNumOne} / ${calcNumTwo} = ${result}`);
+//     break;
+//   default:
+//     console.log(
+//       "Invalid operator, please choose one of the following: (x, +, -, /)"
+//     );
+//     break;
+// }
 
 // CLASS EXCERCISES
 
@@ -305,7 +305,92 @@ switch (operator) {
 // >= 15 y <=60 - pagan regular
 //si el usuario +60 - tiene 40%
 
+// DIEGO APPROACH ["IF-ELSE STATEMENT"]
+// const age = parseInt(prompt("Welcome to Phenomena - How old are you?"));
+// if (age <= 5) {
+//   console.log("You are just a baby, you get in for free :)");
+// } else if (age > 5 && age < 15) {
+//   console.log("You fall under the age group that receives 20% discount");
+// } else if (age >= 15 && age <= 60) {
+//   console.log(
+//     "You fall under the age group that does not get any discount sorry but you are in your prime years go work god damn it ! "
+//   );
+// } else if (age > 60) {
+//   console.log("You fall under the age group that receives 40% discount");
+// }
+
+//GEMMA APPROACH ["IF-ELSE STATEMENT"]
+// const age2 = parseInt(prompt("Enter your age2: "));
+// if (age2 <= 5) {
+//   console.log("Ticket free");
+// } else if (age2 < 15) {
+//   console.log("you have a 20% discount");
+// } else if (age2 <= 60) {
+//   console.log("Regular ticket");
+// } else {
+//   console.log("40 price discount");
+// }
+
+// ALEIX APPROACH ["SWITCH STATEMENT"]
+// let precio = prompt("Cual es tu edad?");
+// switch (true) {
+//   case precio <= 5:
+//     console.log("Ticket free");
+//     break;
+//   case precio > 5 && precio <= 15:
+//     console.log("you have a 20% discount");
+//     break;
+//   case precio > 15 && precio <= 60:
+//     console.log("Regular");
+//     break;
+//   case precio > 60:
+//     console.log("you have a 40% discount");
+//     break;
+//   default:
+//     console.log("Regular");
+//     break;
+// }
+
+// GEMMA APPROACH WITH CALC OF TOTAL OF TICKETS
+const ageThree = parseInt(prompt("Enter your ageThree: "));
+let ticket = 10;
+if (ageThree <= 5) {
+  console.log("Ticket free");
+} else if (ageThree < 15) {
+  console.log(ticket * 0.8);
+} else if (ageThree <= 60) {
+  console.log(ticket);
+} else {
+  console.log(ticket * 0.6);
+}
+
 // Excercise 002
 // Vamos a crear un switch statement para loguear distintos resultados segun los prompts que entre el usuario. Primero le daremos la opción de entrar su name, que nos guardaremos en una variable. Después le permitiremos entrar una action, que también guardaremos en una variable. Nos encargaremos de esta action y, según lo que el usuario entre, haremos console log de alguna cosa u otra.
 
 // Si el usuario entra "greet", lo que vamos a loguear es "Hello, [name]!". Si el usuario entra "say bye", vamos a loguear "Bye bye, [name]!". Si el usuario entra "ask" loguearemos "How are you today, [name]?". Si entra "scream" vamos a loguear "AHHHHHHHH!!!!!!!". Si entra "rest" vamos a loguear "I'm signing off now.". En caso de que la action no sea ninguna de las anteriores, lo que loguearemos será: "I don't know how to do that yet, I'm just a little program :("
+
+const userName = prompt("What's your name?");
+const action = prompt("What type of action would you like to choose from:");
+
+switch (action) {
+  case "greet":
+    console.log(`Hello, ${userName}`);
+    break;
+  case "say bye":
+    console.log(`Bye bye, ${userName}`);
+    break;
+  case "ask":
+    console.log(`How are you today, ${userName}`);
+    break;
+  case "scream":
+    console.log(`AHHHHHHHHHHHHH!!!!!`);
+    break;
+  case "rest":
+    console.log(`I'm signing off now.`);
+    break;
+  default:
+    console.log(
+      "I don't know how to do that yet, I'm just a little program :("
+    );
+    break;
+}
