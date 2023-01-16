@@ -235,5 +235,32 @@ console.log(addTwoNumbers(4, 8));
 // Ejercicio 1:
 // Declara una variable sin asignarle ningún valor. Después, en otra línea, asígnale un valor numérico. Finalmente, haz una reasignación para que a dicha variable se le sume 1. Haz esta reasignación de tres maneras distintas. Recuerda usar console.logs cada vez que quieras comprobar tu progreso.
 
+let myVariable;
+console.log(myVariable);
+myVariable = 10;
+console.log(myVariable);
+//1st Variation
+myVariable = myVariable + 1;
+console.log(myVariable);
+// 2nd Variation
+myVariable += 1;
+console.log(myVariable);
+// 3rd Variation
+myVariable++;
+console.log(myVariable);
+
 // Ejercicio 2:
-// Declara dos variable, una con el valor 3 (number) y la otra con el valor "3" (string). Haz un console.log que compare si las dos son iguales y devuelva verdadero. Haz otro que las compare igual y devuelva falso. Haz lo mismo pero comprobando si NO son iguales. Haz un console.log que compruebe si la primera es mayor o igual que 7. Finalmente, haz un console.log que compruebe si las dos variables son estrictamente iguales O si la primera variable es menor o igual a 3.
+// Declara dos variable, una con el valor 3 (number) y la otra con el valor "3" (string).
+// Haz un console.log que compare si las dos son iguales y devuelva verdadero.
+//Haz otro que las compare igual y devuelva falso.
+// Haz lo mismo pero comprobando si NO son iguales.
+// Haz un console.log que compruebe si la primera es mayor o igual que 7.
+// Finalmente, haz un console.log que compruebe si las dos variables son estrictamente iguales O si la primera variable es menor o igual a 3.
+const num = 3;
+const string = "3";
+// 1st Case
+console.log(num == string);
+//2nd Case
+console.log(num === string);
+//3rd Case
+console.log(num !== string);
