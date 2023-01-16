@@ -242,4 +242,4 @@ console.log(num === str);
 console.log(str < 18 || str == 18);
 console.log(str <= 18);
 
-// TEST
+// TESTsss
