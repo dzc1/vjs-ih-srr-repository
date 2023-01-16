@@ -215,31 +215,25 @@ console.log(!true);
 console.log("Wu Tang Clan" + " is for the children");
 
 //function to add two numbers
+function miSuperCoolFunction(numero1, numero2, numero3) {
+  return numero1 + numero2 + numero3;
+}
+
+const miSuperCoolFunction2 = (numero1, numero2, numero3) => {
+  return numero1 + numero2 + numero3;
+};
+
+console.log(miSuperCoolFunction(10, 5, 8));
+
 function addTwoNumbers(number1, number2) {
   return number1 + number2;
 }
 
 console.log(addTwoNumbers(4, 8));
 
-// 3 variables...
+// CLASS EXCERCISES
+// Ejercicio 1:
+// Declara una variable sin asignarle ningún valor. Después, en otra línea, asígnale un valor numérico. Finalmente, haz una reasignación para que a dicha variable se le sume 1. Haz esta reasignación de tres maneras distintas. Recuerda usar console.logs cada vez que quieras comprobar tu progreso.
 
-// 1. que operador logico me permite que si num y str son equivalentes sean true.!
-// 2. que operador nos permite saber si num y str no son iguales.
-// 3. que num es una edad, el usuario ha metido un num equivalente a una eda como podemos saber si la edad es mayor que 18, menor que 18 o mayorQue o igual 18
-
-// num
-// str
-// obj
-
-let num;
-let str;
-
-num = 8;
-str = "18";
-
-console.log(num == str);
-console.log(num === str);
-console.log(str < 18 || str == 18);
-console.log(str <= 18);
-
-// TESTsss
+// Ejercicio 2:
+// Declara dos variable, una con el valor 3 (number) y la otra con el valor "3" (string). Haz un console.log que compare si las dos son iguales y devuelva verdadero. Haz otro que las compare igual y devuelva falso. Haz lo mismo pero comprobando si NO son iguales. Haz un console.log que compruebe si la primera es mayor o igual que 7. Finalmente, haz un console.log que compruebe si las dos variables son estrictamente iguales O si la primera variable es menor o igual a 3.
