@@ -58,7 +58,7 @@ console.log("Simple Function:");
 function greet() {
   console.log("Hola mis panas!");
 }
-greet();
+//greet();
 
 // Example 2  - Con params
 function greetWithParams(tortilla) {
@@ -68,11 +68,11 @@ function greetWithParams(tortilla) {
 let myName = "Diego Zito";
 let myStudentName = "Ruben Garcia";
 // Using a more complex variable using a window method called prompt, to ask the user for a "name".
-let userName = prompt("Please, enter your name:");
+//let userName = prompt("Please, enter your name:");
 
-greetWithParams(userName);
-greetWithParams(myName);
-greetWithParams(myStudentName);
+// greetWithParams(userName);
+// greetWithParams(myName);
+// greetWithParams(myStudentName);
 
 // Example 3 - Con mas de 1 parametro
 function addTwoNumbers(numeroUno, elvisCrespo) {
@@ -80,12 +80,12 @@ function addTwoNumbers(numeroUno, elvisCrespo) {
 }
 let numberOne = 20;
 let numberTwo = 30;
-addTwoNumbers(numberOne, numberTwo);
-addTwoNumbers(20, 30);
-addTwoNumbers(40, 30);
-addTwoNumbers(20, 50);
-addTwoNumbers(20, 80);
-addTwoNumbers("Manuel", " es bostero");
+// addTwoNumbers(numberOne, numberTwo);
+// addTwoNumbers(20, 30);
+// addTwoNumbers(40, 30);
+// addTwoNumbers(20, 50);
+// addTwoNumbers(20, 80);
+// addTwoNumbers("Manuel", " es bostero");
 
 console.log("-------------------");
 console.log("Functions using keyword return:");
@@ -99,33 +99,33 @@ console.log("Functions using keyword return:");
 function addWithReturn(numero1, numero2) {
   return numero1 + numero2;
 }
-let returnNumberOne = parseFloat(prompt("Input first number: "));
-let returnNumberTwo = parseFloat(prompt("Input second number: "));
-let operationResult = addWithReturn(returnNumberOne, returnNumberTwo);
+// let returnNumberOne = parseFloat(prompt("Input first number: "));
+// let returnNumberTwo = parseFloat(prompt("Input second number: "));
+// let operationResult = addWithReturn(returnNumberOne, returnNumberTwo);
 
-alert(
-  `The total sum of these two numbers using a function that handles the return statement is:  ${operationResult}`
-);
+// alert(
+//   `The total sum of these two numbers using a function that handles the return statement is:  ${operationResult}`
+// );
 
 // Function using multiple params + return statement - MULTIPLY 3 NUMS
 function addWithReturnMultiply(numero1, numero2, numero3) {
   return numero1 * numero2 * numero3;
 }
-let returnMultiplyNumberOne = parseFloat(prompt("Input first number: "));
-let returnMultiplyNumberTwo = parseFloat(prompt("Input second number: "));
-let returnMultiplyNumberThree = parseFloat(prompt("Input third number: "));
-let operationMultiplyResult = addWithReturnMultiply(
-  returnMultiplyNumberOne,
-  returnMultiplyNumberTwo,
-  returnMultiplyNumberThree
-);
+// let returnMultiplyNumberOne = parseFloat(prompt("Input first number: "));
+// let returnMultiplyNumberTwo = parseFloat(prompt("Input second number: "));
+// let returnMultiplyNumberThree = parseFloat(prompt("Input third number: "));
+// let operationMultiplyResult = addWithReturnMultiply(
+//   returnMultiplyNumberOne,
+//   returnMultiplyNumberTwo,
+//   returnMultiplyNumberThree
+// );
 
-alert(
-  `The total sum of these two numbers using a function that handles the return statement is:  ${operationMultiplyResult}`
-);
-console.log(
-  `The total sum of these two numbers using a function that handles the return statement is:  ${operationMultiplyResult}`
-);
+// alert(
+//   `The total sum of these two numbers using a function that handles the return statement is:  ${operationMultiplyResult}`
+// );
+// console.log(
+//   `The total sum of these two numbers using a function that handles the return statement is:  ${operationMultiplyResult}`
+// );
 
 console.log("-------------------");
 // ARROW FUNCTIONS
@@ -143,11 +143,11 @@ function exampleFunctionOldSchool(x, y) {
 let exampleFunctionArrowOne = (x, y) => {
   return x + y;
 };
-console.log(exampleFunctionArrowOne(4, 8));
+//console.log(exampleFunctionArrowOne(4, 8));
 
 // SI SOLO TENEMOS UNA LINEA DE CODIGO DENTRO DEL BODY PODEMOS AHORRARNOS LOS CLAUDETES + NOS DESPRENDEMOS DE LA PALABRA "RETURN".
 let exampleFunctionArrowTwo = (x, y) => x + y;
-console.log(exampleFunctionArrowTwo(10, 50));
+//console.log(exampleFunctionArrowTwo(10, 50));
 
 // SYNTAX DE UNA FUNCION TIPO FLECHA
 // let myFunction = (arg1, arg2, arg3, arg#) => {
@@ -160,27 +160,27 @@ console.log(exampleFunctionArrowTwo(10, 50));
 
 // Ejemplo - Arrow Function - Sin params
 let noArguments = () => console.log("Hello");
-noArguments();
+//noArguments();
 
 // Ejemplo - Arrow Function - Con Params
 let oneArgument = (fiveGuys) => console.log(`Hello ${fiveGuys}`);
-oneArgument("Michael Jordan");
+//oneArgument("Michael Jordan");
 
 // Ejemplo - Arrow Function - FUNCION ANONIMA - NO TIENE NOMBRE FOR DEFINICION Y SE AUTOEJECUTA - ESTA AUTOEJECUCION LA ASOSIAREMOS A UNA CONDICIONAL - MEDIANTE EL TERNARIO :)
 let age = 10;
-let promptAge = parseInt(prompt("Tell me your age"));
+//let promptAge = parseInt(prompt("Tell me your age"));
 let welcomeTwo = age <= 21 ? "" : "";
-let welcome =
-  promptAge <= 21
-    ? () =>
-        alert(
-          "Eres muy joven para formar parte de esta banda, por favor ve a educarte con Miles Davis"
-        )
-    : () =>
-        alert(
-          "Perfecto conoces a Miles Davis, John Coltrane, Chet Baker, Benito 'Bad Bunny' Martinez Ocasio "
-        );
-welcome();
+// let welcome =
+//   promptAge <= 21
+//     ? () =>
+//         alert(
+//           "Eres muy joven para formar parte de esta banda, por favor ve a educarte con Miles Davis"
+//         )
+//     : () =>
+//         alert(
+//           "Perfecto conoces a Miles Davis, John Coltrane, Chet Baker, Benito 'Bad Bunny' Martinez Ocasio "
+//         );
+//welcome();
 
 // Ejemplo - Arrow Function - Params Multiple - Return Statement
 let sumTwoNumbers = (numberOne, numberTwo) => {
@@ -190,7 +190,7 @@ let sumTwoNumbers = (numberOne, numberTwo) => {
   return resultOfSum;
 };
 let resultOfSumTwoNumbers = sumTwoNumbers(80, 360);
-console.log(resultOfSumTwoNumbers);
+//console.log(resultOfSumTwoNumbers);
 
 // ...
 // ...
@@ -199,8 +199,60 @@ console.log(resultOfSumTwoNumbers);
 // ...
 // ...
 // Crea una función que reciba tres argumentos: una string name, un numero age y un objeto livesIn. Ten en cuenta que el objeto livesIn será un objeto que contiene dos keys: livesInCity y livesInTown. Las dos tendrán un valor booleánico y siempre será una falsa y la otra verdadera.
-// Crea una función tipo flecha que retorne una string parecida a "Diego tiene 30 años y vive en la ciudad".Según la key que sea true en el argumento livesIn vamos a retornar vive en la ciudad o vive en un pueblo.
+// Crea una función tipo flecha que retorne una string parecida a "Diego tiene 30 años y vive en la ciudad".
+//Según la key que sea true en el argumento livesIn vamos a retornar vive en la ciudad o vive en un pueblo.
 
-//console.log(miFuncion("Jarko", 25, {livesInCity: true, livesInTown: false}));
 //console.log(miFuncion("Martina", 42, {livesInCity: false, livesInTown: true}));
 //console.log(miFuncion("Laia", 78, { livesInCity: false, livesInTown: true }));
+//console.log(miFuncion("Jarko", 25, {livesInCity: true, livesInTown: false}));
+
+// Version 001 - Class
+const functionExcerciseOne = (name, age, livesIn) => {
+  if (livesIn.livesInCity) return `${name} tiene ${age} y vive en la ciudad.`;
+  else return `${name} tiene ${age} y vive en un pueblo`;
+};
+console.log("Simple Conditionals mixed with return");
+console.log(
+  functionExcerciseOne("Martina", 42, { livesInCity: true, livesInTown: true })
+);
+
+// Version 002 - Ternary Simplified - Return statement
+const arrFuncTernaryOne = (name, age, livesIn) => {
+  return livesIn.livesInCity
+    ? `${name} tiene ${age} y vive en la ciudad.`
+    : `${name} tiene ${age} y vive en un pueblo`;
+};
+console.log("Return");
+console.log(
+  arrFuncTernaryOne("Martina", 42, { livesInCity: true, livesInTown: true })
+);
+
+// Version 003 - Ternary Simplified - NO return statement
+const arrFuncTernaryTwo = (name, age, livesIn) =>
+  livesIn.livesInCity
+    ? `${name} tiene ${age} y vive en la ciudad.`
+    : `${name} tiene ${age} y vive en un pueblo`;
+
+console.log("No Return");
+console.log(
+  arrFuncTernaryTwo("Martina", 42, { livesInCity: true, livesInTown: true })
+);
+
+// Version 004 - Alvaro
+const bioCheck = (firstName, age, livesIn) => {
+  return `${firstName} tiene ${age} años y vive en ${
+    livesIn.livesInCity ? "la ciudad" : "el pueblo"
+  }`;
+};
+console.log("Alvaro");
+console.log(bioCheck("Martina", 42, { livesInCity: true, livesInTown: true }));
+
+// Version 005 - Ikerne
+const personalInfo2 = (name, age, livesIn) => {
+  let location = livesIn.livesInCity ? "a ciudad" : " pueblo";
+  return `${name} tiene ${age} años y vive en un${location}.`;
+};
+console.log("Ikerne");
+console.log(
+  personalInfo2("Martina", 42, { livesInCity: true, livesInTown: true })
+);
