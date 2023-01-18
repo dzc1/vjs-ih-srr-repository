@@ -200,3 +200,20 @@ Si quieres saber más, visita los siguientes enlaces.
 
 [MAC shortcuts](https://support.apple.com/es-es/HT201236)
 [MAC VS Code shortcuts](https://manolohidalgo.com/atajos-de-teclado-en-visual-studio-code-para-mac/)
+
+### VUE Project Installation
+
+#### VUE CLI
+
+Para poder crear un projecto desde tu terminal solo tienes que seguir estos pasos:
+
+```bash
+npm init vue@latest
+```
+
+Sigue los pasos de este gif para que puedas instalar un proyecto sencillo de la ultima version de Vue que trabaja en conjunto con Vite. Una libreria de ayuda al framework.
+
+Ver el video:
+<img src="./assets/gifs/new-trimmed.gif" alt="Vue CLI">
+
+Para poder seleccionar entre `YES` o `NO` entre las varias opciones que te presenta el `cli de Vue` puedes moverte con tu teclado con las teclas de `izq` o `der` y elejir con la tecla de `enter` o `return`.
