@@ -100,3 +100,26 @@ const wuTang =
   "                         WU Tang Clan is for the children                                    ";
 console.log(wuTang.length);
 console.log(wuTang.trim().length);
+
+// ---------------- EJERCICIOS ----------------
+
+// Ej. 1
+// Dada la string que tenéis a continuación, haced los console.log() correspondientes para conseguir los siguientes outputs:
+let stringToLog = "    JavaScript is fun! ";
+// 23
+// 'JavaScript is fun!'
+// ['java', 'cript i', ' fun!']
+// 'JAVASCRIPT IS FUN!'
+// 'f'
+// 5
+// 15
+// 'CSS is fun!'
+
+// Ej. 2 Dada la string stringToChange, modificadla de tal manera que los console.log() devuelvan los outputs comentados.
+const original = "Hello world!";
+let stringToChange = "Hello world!";
+console.log(stringToChange.endsWith("o")); // true
+console.log(stringToChange.charAt(3)); // 'r'
+console.log(stringToChange.includes("hello")); // true
+console.log(stringToChange.lastIndexOf("o")); // 4
+console.log(stringToChange.indexOf("w")); // -1
