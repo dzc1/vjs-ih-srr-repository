@@ -75,10 +75,6 @@
   - [Array Methods](https://github.com/dzc1/class-jan09/blob/main/section-03-js/10-array-methods.js)
   - [String Methods](https://github.com/dzc1/class-jan09/blob/main/section-03-js/11-string-methods.js)
   - [Number Methods](https://github.com/dzc1/class-jan09/blob/main/section-03-js/12-number-methods.js)
-  <!-- - []()
-- []()
-- []()
-- []() -->
 
 ## Links de Ayuda
 
@@ -104,11 +100,7 @@
   - [CSS Buttons with Animations](https://htmlcssfreebies.com/pheasant-demure-buttons/)
   - [Media Query CheatSheet](https://gist.github.com/bartholomej/8415655)
   - [JS Operator Lookup](https://www.joshwcomeau.com/operator-lookup/)
-  <!-- - []()
-  - []()
-  - []()
-  - []()
-  - []() -->
+  <!-- - []() -->
 
 ## Comandos de Git
 
