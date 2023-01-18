@@ -43,27 +43,6 @@
   - []()
   - []()
 
-## Estructura de Carpetas
-
-- [Basic Layout](https://github.com/dzc1/class-jan09/blob/main/section-01-html/01-basic-layout.html)
-- [Meta Tags](https://github.com/dzc1/class-jan09/blob/main/section-01-html/02-meta-tags.html)
-- [Typography, Headings, Paragraphs](https://github.com/dzc1/class-jan09/blob/main/section-01-html/03-typography.html)
-- [Anchor Tags / Links](https://github.com/dzc1/class-jan09/blob/main/section-01-html/04-links.html)
-- [Images](https://github.com/dzc1/class-jan09/blob/main/section-01-html/05-images.html)
-- [Ordered & Unordered Lists](https://github.com/dzc1/class-jan09/blob/main/section-01-html/06-list.html)
-- [Semantic & Non Semantic Elements - Layout](https://github.com/dzc1/class-jan09/blob/main/section-01-html/07-layout.html)
-- [Layout Example - Basic Website Structure](https://github.com/dzc1/class-jan09/blob/main/section-01-html/08-layout-example.html)
-- [Html Tables](https://github.com/dzc1/class-jan09/blob/main/section-01-html/09-tables.html)
-- [HTML Forms](https://github.com/dzc1/class-jan09/blob/main/section-01-html/10-inlinve-vs-block.html)
-- [Css Basics](https://github.com/dzc1/class-jan09/blob/main/section-02-css/01-basics.html)
-- [CSS Selectors](https://github.com/dzc1/class-jan09/blob/main/section-02-css/02-selectors.html)
-- [Fonts](https://github.com/dzc1/class-jan09/blob/main/section-02-css/03-fonts.html)
-- [Text Properties](https://github.com/dzc1/class-jan09/blob/main/section-02-css/04-text-properties.html)
-- [Colors](https://github.com/dzc1/class-jan09/blob/main/section-02-css/05-colors.html)
-- [Borders & Backgrounds](https://github.com/dzc1/class-jan09/blob/main/section-02-css/06-borders-background.html)
-- [Box Model](https://github.com/dzc1/class-jan09/blob/main/section-02-css/07-box-model.html)
-- [Layout - Floats](https://github.com/dzc1/class-jan09/blob/main/section-02-css/09-float-align.html)
-
 ## Links de Ayuda
 
 - [CSS Frameworks](#css-frameworks)
