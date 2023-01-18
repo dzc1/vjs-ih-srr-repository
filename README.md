@@ -138,6 +138,40 @@ git push origin "nombre del branch/rama que estaremos apuntando"
 git push
 ```
 
+### Combinations - Git
+
+#### Combination #1 - Extended
+
+Hace una combinacion de `git add commit push` usando estos comandos de `git` y usando un un operador logico `AND` con el syntax `&&`
+
+```bash
+git add . &&
+git commit -m "Texto descriptivo de los cambios recientes" &&
+git push origin "nombre del branch/rama que estaremos apuntando"
+```
+
+#### Combination #2 - Simplified
+
+Hace una combinacion de `git add commit push` usando estos comandos de `git` y usando un un operador logico `AND` con el syntax `&&`
+
+```bash
+git add . &&
+git commit -m "Texto descriptivo de los cambios recientes" &&
+git push
+```
+
+Ver los `branches` asociados al repositorio.
+
+```bash
+git branch
+```
+
+Hacer un `pull` de los ultimos cambios de un repositorio git en gitHub a tu repo local
+
+```bash
+git pull origin "nombre del branch/rama que estaremos apuntando"
+```
+
 ## Shortcuts (Atajos de teclado)
 
 Los atajos de teclado hacen que seas más productivo y feliz. En general son como ese buen amigo del que te puedes fiar no para que haga su trabajo, pero sí para que te lo haga menos pesado.
