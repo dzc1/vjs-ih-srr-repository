@@ -1,1 +1,1 @@
-console.log("String Methods Class: ");
+console.log("String Methods Class:");
