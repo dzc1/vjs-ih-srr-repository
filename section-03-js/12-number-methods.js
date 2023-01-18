@@ -39,10 +39,12 @@ console.log(number.toFixed(2));
 
 // 4. toPrecision()
 // Pone todos los decimales de un número
+console.log("------------- toPrecision");
 console.log(number.toPrecision(2));
 
 // 5. valueOf()
 //Si tienes un objeto pero quieres convertirlo a su valor numérico puedes usar .valueOf(). No deberías usar este método si no es para convertir un dato.
+console.log("------------- valueOf");
 let number2 = {
   x: "10",
   y: "20",
@@ -53,6 +55,7 @@ console.log(typeof testVariable);
 
 // 6. toString()
 // Si quieres convertir un número a string usa el método .toString()
+console.log("------------- toString");
 console.log(number.toString());
 console.log(typeof number.toString());
 
