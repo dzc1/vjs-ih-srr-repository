@@ -75,6 +75,9 @@
   - [Array Methods](https://github.com/dzc1/class-jan09/blob/main/section-03-js/10-array-methods.js)
   - [String Methods](https://github.com/dzc1/class-jan09/blob/main/section-03-js/11-string-methods.js)
   - [Number Methods](https://github.com/dzc1/class-jan09/blob/main/section-03-js/12-number-methods.js)
+  - [Dom Manipulation - Part 1](https://github.com/dzc1/class-jan09/blob/main/section-03-js/13-dom-manipulation.js)
+  - [Dom Manipulation - Part 2 - Connect to HTML FILE 'dom'](https://github.com/dzc1/class-jan09/blob/main/section-03-js/15-dom-manipulation-2.js)
+  - [Dom Part 2 - HTML File](https://github.com/dzc1/class-jan09/blob/main/section-03-js/14-dom.html)
 
 ## Links de Ayuda
 
