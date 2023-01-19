@@ -92,6 +92,7 @@
   - [HTML in 100 seconds](https://youtu.be/ok-plXXHlWw)
   - [CSS in 100 seconds](https://youtu.be/OEV8gMkCHXQ)
   - [Javascript in 100 seconds](https://youtu.be/DHjqpvDnNGE)
+  - [Vue in 100 seconds](https://youtu.be/nhBVL41-_Cw)
   - [Binary in 100 seconds](https://youtu.be/zDNaUi2cjv4)
   - [VSCode in 100 seconds](https://youtu.be/KMxo3T_MTvY)
   - [Vite in 100 seconds](https://youtu.be/KCrXgy8qtjM)
