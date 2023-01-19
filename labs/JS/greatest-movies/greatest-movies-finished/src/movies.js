@@ -125,12 +125,78 @@ const orderAlphabetically = (movies) => {
     .sort() // usamos este metodo para ordenar alfabeticamente, esto automatico por eso usamos el metodo.
     .slice(0, 20); // cortamos desde la position 0 hasta la 20 - 20 pelis
 };
-console.log("Iteration 05");
+console.log("Iteration 06");
 console.table(orderAlphabetically(movies));
 console.log("-----------------------------");
 
 // BONUS - Iteration 7: Time Format - Turn duration of the movies from hours to minutes
-const turnHoursToMinutes = (movies) => {};
+//Part 001
+const convertHours = (hourString) => {
+  let calculateHour = hourString.split("h");
+  return calculateHour[0] * 60;
+};
+// Part 002
+const convertMinutes = (minuteString) => {
+  let calculateMinutes = minuteString.split("min");
+  return Number(calculateMinutes[0]);
+};
+// Part 003
+const convertDuration = (duration) => {
+  let timePieces = duration.split(" ");
+
+  let minutes = timePieces.reduce((sum, onePiece) => {
+    if (onePiece.includes("h")) {
+      return sum + convertHours(onePiece);
+    }
+    return sum + convertMinutes(onePiece);
+  }, 0);
+
+  return minutes;
+};
+// Part 004
+const turnHoursToMinutes = (movies) => {
+  let newCentArray = movies.map((movie) => {
+    let newMovie = {};
+    newMovie.title = movie.title;
+    newMovie.year = movie.year;
+    newMovie.director = movie.director;
+    newMovie.duration = convertDuration(movie.duration);
+    newMovie.genre = movie.genre;
+    newMovie.rate = movie.rate;
+
+    return newMovie;
+  });
+
+  return newCentArray;
+};
+console.log("Iteration 07");
+console.table(turnHoursToMinutes(movies));
+console.log("-----------------------------");
 
 // BONUS - Iteration 8: Best yearly score average - Best yearly score average
-const bestYearAvg = (movies) => {};
+const bestYearAvg = (movies) => {
+  if (!movies.length) return null;
+
+  let masterObject = {};
+
+  movies.forEach((movie) => {
+    if (!masterObject[movie.year]) {
+      masterObject[movie.year] = [movie];
+    } else {
+      masterObject[movie.year].push(movie);
+    }
+  });
+
+  let highest = 0;
+  let theActualYear;
+  for (let theYear in masterObject) {
+    if (scoresAverage(masterObject[theYear]) > highest) {
+      highest = scoresAverage(masterObject[theYear]);
+      theActualYear = theYear;
+    }
+  }
+  return `The best year was ${theActualYear} with an average score of ${highest}`;
+};
+console.log("Iteration 08");
+console.table(bestYearAvg(movies));
+console.log("-----------------------------");
