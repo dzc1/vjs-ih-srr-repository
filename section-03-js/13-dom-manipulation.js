@@ -11,7 +11,18 @@ console.log("DOM Manipulation Intro Class:");
 // La imagen siguiente ofrece una representación visual del aspecto del árbol DOM.
 
 // Window Object
-//
+//En JavaScript, el objeto window representa la ventana del navegador en la que se está ejecutando el script. Es el objeto global y se puede acceder a él desde cualquier parte del código sin necesidad de importarlo.
+// Algunos ejemplos de cómo utilizar el objeto window en JavaScript son:
+// Obtener la URL actual: window.location.href
+// Mostrar una alerta: window.alert("Mensaje de alerta")
+// Abrir una nueva ventana: window.open("http://www.example.com", "Nombre de la ventana", "opciones")
+// Redirigir a otra página: window.location.assign("http://www.example.com")
+// Cambiar el tamaño de la ventana: window.resizeTo(ancho, alto)
+// Obtener la altura y ancho de la ventana: window.innerHeight y window.innerWidth
+// Es importante señalar que algunas de las funciones que se mencionan anteriormente pueden ser bloqueadas por el navegador si la página no es cargada en modo seguro (https) o si el usuario tiene habilitadas las restricciones de popups.
+
+// Es importante señalar que algunas de las funciones que se mencionan anteriormente pueden ser bloqueadas por el navegador si la página no es cargada en modo seguro (https) o si el usuario tiene habilitadas las restricciones de popups.
+
 console.log(window);
 
 // El Documento
