@@ -198,5 +198,5 @@ const bestYearAvg = (movies) => {
   return `The best year was ${theActualYear} with an average score of ${highest}`;
 };
 console.log("Iteration 08");
-console.table(bestYearAvg(movies));
+console.log(bestYearAvg(movies));
 console.log("-----------------------------");
