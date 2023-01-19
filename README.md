@@ -111,7 +111,7 @@
   - [CSS Flexbox Crash Course](https://youtu.be/3YW65K6LcIA)
   - [CSS Grid Crash Course](https://youtu.be/0xMQfnTU6oo)
   - [JS Fundamentals](https://youtu.be/vEROU2XtPR8)
-  - [JS Crach Course](https://youtu.be/hdI2bqOjy3c)
+  - [JS Crash Course](https://youtu.be/hdI2bqOjy3c)
   - [JS Functions & Arrays Crash Course](https://youtu.be/rRgD1yVwIvE)
   - [JS - DOM Crash Course](https://youtu.be/0ik6X4DJKCc)
   - [JS - Async Await Crash Course](https://youtu.be/PoRJizFvM7s)
