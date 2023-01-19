@@ -96,6 +96,7 @@
   - [CSS in 100 seconds](https://youtu.be/OEV8gMkCHXQ)
   - [Javascript in 100 seconds](https://youtu.be/DHjqpvDnNGE)
   - [RESTful Apis in 100 seconds](https://youtu.be/-MTSQjw5DrM)
+  - [Learn JSON in 10 Minutes](https://youtu.be/iiADhChRriM)
   - [Vue in 100 seconds](https://youtu.be/nhBVL41-_Cw)
   - [Supabase in 100 Seconds](https://youtu.be/zBZgdTb-dns)
   - [Binary in 100 seconds](https://youtu.be/zDNaUi2cjv4)
