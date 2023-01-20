@@ -10,7 +10,10 @@
   <body class="bg-gradient-to-r from-gray-100 to-blue-100">
     <section class="py-2">
       <div class="p-4">
-        <h1 class="text-center text-xl font-bold">Que son eventos del browser?</h1>
+        <h1 class="text-center text-xl font-bold ruben-example cursor-pointer hover:text-blue-500">Que son eventos del browser?</h1>
+        <a href="#alexisGS">
+          <h1 class="text-center text-xl font-bold cursor-pointer hover:text-blue-500">Que son eventos del browser?</h1>
+        </a>
         <p>Une vento se refiere a una accion dentro del programa.</p>
         <p>Vamos a enfocarnos en eventos en contexto al browswer.</p>
         <p>
@@ -129,6 +132,9 @@
       ONCLICK="(() => alert('Hello World!'))()">
       Click Me 3</button>
 
+      <button class="font-heading px-5 py-3 w-auto uppercase text-white text-xs font-semibold  bg-gray-900 rounded-md" 
+      onclick="hello()">
+      Click Me 4 - using a function that lives in the script tag - SEGEMENTADO</button>
 
       <p>
         Tomen nota que no es comun encontrar atributos de eventos en HTML como
@@ -196,7 +202,7 @@
         <p class="font-bold mychange">I love Hip Hop</p>
 
 
-        <div id="doubleclick" class="mx-auto p-4 bg-gray-900 rounded-md text-white uppercase">Click Me - doubleclick</div>
+        <div id="doubleclick" class="mx-auto p-4 bg-gray-900 rounded-md text-white uppercase cursor-pointer">Click Me - doubleclick</div>
       </div>
 
       <div class="px-20 py-2 mx-auto">
@@ -209,9 +215,123 @@
 
        </div>
 
+       <div class="flex itmes-center justify-center p-8">
+        <button class="scroll-to-top p-4 bg-blue-600 text-center text-white">Click me to scroll to top</button>
+       </div>
+       <div class="flex itmes-center justify-center p-8">
+        <button id="alexisGS" class="p-4 bg-blue-600 text-center text-white">STATIC ELEMENT</button>
+       </div>
+
+
     </div>
     </section>
 
+    <script>
+      console.log("HELLO");
+
+      // funcion 
+      function hello() {
+        alert("JS IS really cool!")
+      }
+      let btn = document.querySelector("#btn")
+      btn.addEventListener("click", hello);
+
+      // Callback Function inside the method to execute itself.
+      //btn.addEventListener("click", () => {})
+
+
+      // COMMENTS BELOW 
+
+      // Agregando el evento directo desde una funcion arrow mediante un llamado onclick en html y pasandole el nombre de la funcion dentro.
+      const onClickHandler2 = () => {
+        alert("Evento desde una funcion arrow en html");
+      };
+
+      //Agregando el evento directo despues de llamar a la variabale "button" y le pasamos el evento directo llamando a una funcion alertando algo :) 
+      const button2 = document.querySelector("#button2")
+      function directEvent(){
+        alert("Evento Directo")
+      }
+      button2.onclick = directEvent
+
+      //Agregando un event listener para escuchar de una manera mas flexible lo que quieras que puedas manipular :) 
+      const button3 = document.querySelector("#button3")
+      const onClickHandler3 = () => {
+        alert("Usando Event Listeners - WU TANG");
+      };
+      //button3.addEventListener('click', () => alert("Usando Event Listener y usamos un callback :)"))
+      button3.addEventListener('click', onClickHandler3)
+
+
+      // WORKING WITH EVENTS & PARAMS
+       //VAMOS A PASARLE UN PARAMETRO?ARGUMENTO DENTRO DE NUESTRA FUNCION 
+      // De esta manera podemos acceder a mas informacion de la funcion
+
+      const button4 = document.querySelector("#button4");
+      button4.addEventListener("click", (e) => {
+        // el parametro dentro de esta callback, hace referencia al evento que esta asociado a la variable.
+        console.log(e);
+        // Tenemos "SUBPropiedades" dentro de las propiedades del evento como por ejemplo "target" === es el elemento asociado al evento, casualmente este elemento es el button con id button4.
+        console.log(e.target);
+
+        // Ejemplo cambiando la clase del background
+        //button4.classList.add("bg-red-500")
+        // Ejemplo con un toggle para alternar clases 
+        button4.classList.toggle("bg-red-500")
+      })
+
+      // Adding Multiple Events 
+      const divMultiple = document.querySelectorAll(".multiple")
+      console.log(divMultiple);
+      divMultiple.forEach((eachDiv) => {
+        eachDiv.addEventListener('click' , (paremetroDeEventListner) => {
+          console.log(paremetroDeEventListner);
+          console.log(`El ID de este div es ${eachDiv.id}`);
+          alert(`El ID de este div es ${eachDiv.id}`)
+        })
+      })
+
+      // Short Version 
+      const shortenedVersion = document.querySelector("#shortened").addEventListener("click", () => {
+        alert("Short Version - Click")
+      })
+
+      // DBL CLick Event
+      const functionChangeText = () => {
+        document.querySelector(".mychange").innerText = "I Love both hip hop & rock n roll"
+      }
+      const dblClick = document.querySelector('#doubleclick').addEventListener('mouseout', functionChangeText)
+
+      //keydown event
+      const keyDownFunction = document.querySelector(".keyDown-class").addEventListener("keyup" , () => alert("Has presionado hacia abajo esta tecla"))
+
+      // Window object para hacer scroll hacia el 0 
+      let scrollBtn = document.querySelector(".scroll-to-top");
+
+      const scrollMeAllTheWayUp = () => {
+        console.log(window);
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        })
+      }
+
+      scrollBtn.addEventListener("click", scrollMeAllTheWayUp)
+
+
+      // Scroll to specific element 
+      let ruben = document.querySelector(".ruben-example");
+
+      const scrollIntoView = () => {
+        let elementIwantToGoTo = document.querySelector(".scroll-to-top");
+        elementIwantToGoTo.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start',
+        })
+      }
+      ruben.addEventListener("click", scrollIntoView)
+
+    </script>
     
   </body>
 </html>
