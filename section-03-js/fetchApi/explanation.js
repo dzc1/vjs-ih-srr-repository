@@ -10,10 +10,6 @@ fetch("https://jsonplaceholder.typicode.com/posts/1")
   .then((response) => response.json())
   .then((data) => console.log(data));
 
-// fetch().then().then()
-
-// () => {}
-
 //   En este ejemplo, se está haciendo una petición GET a la URL especificada, luego se está tomando la respuesta y se está convirtiendo en un objeto JSON, finalmente se está imprimiendo en consola.
 
 //   Una de las principales ventajas de usar el método fetch() es que es fácil de usar y se integra bien con otras características de JavaScript, como las promesas. Además, es compatible con navegadores modernos y proporciona una forma estándar de hacer peticiones HTTP en JavaScript.
