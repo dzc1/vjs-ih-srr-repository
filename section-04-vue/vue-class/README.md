@@ -61,7 +61,9 @@ Cuando tengamos la palabra "setup" dentro del "opening tag/etiqueta de apertura"
 
 <!-- HTML aca -->
 
+```vue
 <template></template>
+```
 
 <!-- JS - Logica aca -->
 <script setup></script>
