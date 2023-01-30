@@ -1,17 +1,21 @@
 <script setup>
 import HelloWorld from "./components/HelloWorld.vue";
 import MyFirstComponent from "./components/vueBasics/0-MyFirstComponent.vue";
+import TextDirective from "./components/vueBasics/1-TextDirective.vue";
+import HtmlDirective from "./components/vueBasics/2-HtmlDirective.vue";
 </script>
 
 <template>
   <header>
     <div class="wrapper">
-      <HelloWorld msg="Vue Class - my first component" />
+      <HelloWorld msg="Vue Class - HTML Directive Class" />
     </div>
   </header>
   <!-- Declarar los componentes creados de clase dentro del elemento "main" -->
   <main>
-    <MyFirstComponent />
+    <!-- <MyFirstComponent /> -->
+    <TextDirective />
+    <HtmlDirective />
   </main>
 </template>
 
