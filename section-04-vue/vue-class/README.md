@@ -56,3 +56,14 @@ Cuando tengamos la palabra "scoped" dentro del "opening tag/etiqueta de apertura
 #### Info acerca de elemento "script"
 
 Cuando tengamos la palabra "setup" dentro del "opening tag/etiqueta de apertura" significa que esta logica esta diseñada con el approach del composition API.
+
+#### Estrcutura de un componente vue v-compositon api
+
+<!-- HTML aca -->
+
+<template></template>
+
+<!-- JS - Logica aca -->
+<script setup></script>
+<!-- Css Estilos aca -->
+<style scoped></style>
