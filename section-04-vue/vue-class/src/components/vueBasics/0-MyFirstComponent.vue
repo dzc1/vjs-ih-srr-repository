@@ -35,6 +35,35 @@
       <button @click="increaseCounter">+</button>
     </div>
   </section>
+  <!-- Excercise 001 -->
+  <section>
+    <div>
+      <p>
+        Mi nombre es {{ myInfoEx.myName }} y tengo {{ myInfo.age }} y naci el
+        {{ myInfoEx.dob }} y me gustan los siguientes hobbies:
+      </p>
+      <ul>
+        <!-- <li>{{ myInfoEx.hobbies }}</li> -->
+        <li>{{ myInfoEx.hobbies[0] }}</li>
+        <li>{{ myInfoEx.hobbies[1] }}</li>
+        <li>{{ myInfoEx.hobbies[2] }}</li>
+        <li>{{ myInfoEx.hobbies[3] }}</li>
+        <li>{{ myInfoEx.hobbies[4] }}</li>
+        <li>{{ myInfoEx.hobbies[5] }}</li>
+      </ul>
+      <p>Educacion:</p>
+      <ul>
+        <li>{{ myInfoEx.education.primary }}</li>
+        <li>{{ myInfoEx.education.secondary }}</li>
+        <li>{{ myInfoEx.education.university }}</li>
+      </ul>
+      <p>
+        Me encanta la pelicula {{ myMovieEx }} y me la he disfrutado
+        {{ timesWatchedEx }} veces mientras como mi comida preferida que es:
+        {{ favoriteFoodEx }}
+      </p>
+    </div>
+  </section>
 </template>
 
 <!-- JS - Logica aca -->
@@ -94,6 +123,28 @@ const decreaseCounter = () => {
 // ref ==== pelicula preferida
 // ref === # cantidad de veces que se han visto esta pelicula
 // ref === comida preferida
+const myInfoEx = reactive({
+  myName: "Diego Zito",
+  age: 31,
+  dob: "May 16th, 1991",
+  hobbies: [
+    "Surfing",
+    "Coding",
+    "Guitar",
+    "Cooking",
+    "Snowboarding",
+    "Stoicism",
+  ],
+  education: {
+    primary: "Liceo Camoruco",
+    secondary: "Cypress Bay High School",
+    university: "Florida International University",
+  },
+  favoriteGroup: "Red Hot Chilli Peppers",
+});
+const myMovieEx = ref("Pandillas de Nueva York");
+const timesWatchedEx = ref(31);
+const favoriteFoodEx = ref("Comida Mexicana");
 </script>
 
 <!-- Css Estilos aca -->
