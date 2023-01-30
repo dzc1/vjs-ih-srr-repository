@@ -66,6 +66,13 @@ Cuando tengamos la palabra "setup" dentro del "opening tag/etiqueta de apertura"
 ```
 
 <!-- JS - Logica aca -->
+
+```vue
 <script setup></script>
+```
+
 <!-- Css Estilos aca -->
+
+```vue
 <style scoped></style>
+```
