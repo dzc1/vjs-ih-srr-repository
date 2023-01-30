@@ -1,5 +1,6 @@
 <script setup>
 import HelloWorld from "./components/HelloWorld.vue";
+import MyFirstComponent from "./components/vueBasics/0-MyFirstComponent.vue";
 </script>
 
 <template>
@@ -8,8 +9,10 @@ import HelloWorld from "./components/HelloWorld.vue";
       <HelloWorld msg="Vue Class - my first component" />
     </div>
   </header>
-
-  <main></main>
+  <!-- Declarar los componentes creados de clase dentro del elemento "main" -->
+  <main>
+    <MyFirstComponent />
+  </main>
 </template>
 
 <style scoped>

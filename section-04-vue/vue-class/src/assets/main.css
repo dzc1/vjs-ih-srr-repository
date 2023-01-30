@@ -1,4 +1,4 @@
-@import './base.css';
+@import "./base.css";
 
 #app {
   max-width: 1280px;
@@ -6,6 +6,10 @@
   padding: 2rem;
 
   font-weight: normal;
+}
+
+p {
+  font-size: 2em;
 }
 
 a,
