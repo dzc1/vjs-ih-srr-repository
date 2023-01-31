@@ -12,6 +12,10 @@ p {
   font-size: 2em;
 }
 
+/* #my-super-cool-dynamic-id {
+  color: red;
+} */
+
 a,
 .green {
   text-decoration: none;

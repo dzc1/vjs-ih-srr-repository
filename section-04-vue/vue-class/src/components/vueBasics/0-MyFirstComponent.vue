@@ -16,6 +16,10 @@
       <p>
         Mi nombre es {{ myName }}, naci en {{ countryOfBirth }} y tengo
         {{ age }} años.
+        <br />
+        answer is : {{ 2 * 2 + 4 - 3 }} expression are not supposed to be used
+        like this: <br />
+        <!-- {{ let a = "Diego" }} -->
       </p>
       <!-- Dato primitivo - null value -->
       <p>{{ nullValue }}</p>

@@ -11,6 +11,8 @@
 <template>
   <!-- Usando el directivo v-text -->
   <p v-text="favoriteBand"></p>
+  <!-- Usando el directivo v-text apuntando a un numero -->
+  <p v-text="randomNumber"></p>
 
   <!-- Usando interpolacion de texto -->
   <p>{{ favoriteBand }}</p>
@@ -20,5 +22,6 @@ import { ref } from "vue";
 
 //dato primitivo
 let favoriteBand = ref("una de mis bandas preferidas es Soda Stereo");
+let randomNumber = ref(4);
 </script>
 <style scoped></style>
