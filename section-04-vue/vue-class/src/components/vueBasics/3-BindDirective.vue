@@ -23,7 +23,6 @@ Este ejemplo adjudica una clase determinada en función a una lógica de JavaScr
   <h1>
     Usando el directo "v-bind" para unificar ciertas elementos con nuestro js :)
   </h1>
-
   <div id="binding-attributes">
     <!-- Binding ID's -->
     <div id="binding-ids">
@@ -111,11 +110,15 @@ Este ejemplo adjudica una clase determinada en función a una lógica de JavaScr
       </p>
     </div>
   </div>
+  <hr />
+  <!-- Excercise Component  -->
+  <BindDirectiveEx />
 </template>
 
 <!-- JS HERE -->
 <script setup>
 import { ref, reactive } from "vue";
+import BindDirectiveEx from "../class-excercises/BindDirectiveEx.vue";
 
 // ID BINDING
 const headingId = ref("my-super-cool-dynamic-id");

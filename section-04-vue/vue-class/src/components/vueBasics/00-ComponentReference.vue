@@ -1,4 +1,8 @@
-<!-- Copia este codigo por referencia -->
+<!-- HTML HERE -->
 <template></template>
-<script setup></script>
+<!-- JS HERE -->
+<script setup>
+import { ref, reactive } from "vue";
+</script>
+<!-- CSS HERE -->
 <style scoped></style>

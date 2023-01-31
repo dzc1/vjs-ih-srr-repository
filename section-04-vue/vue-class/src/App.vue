@@ -4,12 +4,13 @@ import MyFirstComponent from "./components/vueBasics/0-MyFirstComponent.vue";
 import TextDirective from "./components/vueBasics/1-TextDirective.vue";
 import HtmlDirective from "./components/vueBasics/2-HtmlDirective.vue";
 import BindDirective from "./components/vueBasics/3-BindDirective.vue";
+import ConditionalDirectives from "./components/vueBasics/4-ConditionalDirectives.vue";
 </script>
 
 <template>
   <header>
     <div class="wrapper">
-      <HelloWorld msg="Vue Class - V-bind directive" />
+      <HelloWorld msg="Vue Class - conditional rendeing directives" />
     </div>
   </header>
   <!-- Declarar los componentes creados de clase dentro del elemento "main" -->
@@ -17,7 +18,8 @@ import BindDirective from "./components/vueBasics/3-BindDirective.vue";
     <!-- <MyFirstComponent /> -->
     <!-- <TextDirective /> -->
     <!-- <HtmlDirective /> -->
-    <BindDirective />
+    <!-- <BindDirective /> -->
+    <ConditionalDirectives />
   </main>
 </template>
 
