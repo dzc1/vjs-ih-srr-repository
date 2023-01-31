@@ -6,14 +6,13 @@ import HtmlDirective from "./components/vueBasics/2-HtmlDirective.vue";
 import BindDirective from "./components/vueBasics/3-BindDirective.vue";
 import ConditionalDirectives from "./components/vueBasics/4-ConditionalDirectives.vue";
 import ConditionalEx from "./components/class-excercises/ConditionalDirectives.vue";
+import IterativeDirective from "./components/vueBasics/5-IterativeDirective.vue";
 </script>
 
 <template>
   <header>
     <div class="wrapper">
-      <HelloWorld
-        msg="Vue Class - conditional rendeing directives excercises"
-      />
+      <HelloWorld msg="Vue Class - Iterative Directives" />
     </div>
   </header>
   <!-- Declarar los componentes creados de clase dentro del elemento "main" -->
@@ -23,7 +22,7 @@ import ConditionalEx from "./components/class-excercises/ConditionalDirectives.v
     <!-- <HtmlDirective /> -->
     <!-- <BindDirective /> -->
     <!-- <ConditionalDirectives /> -->
-    <ConditionalEx />
+    <IterativeDirective />
   </main>
 </template>
 
