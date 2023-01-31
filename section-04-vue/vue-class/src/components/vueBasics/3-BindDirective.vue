@@ -1,4 +1,22 @@
-<!-- Si queremos bindear atributos dentro de nuestro codigo/scriptTag no podemos usar el syntax de los bigotes!, El euqipo de vue a creado tags especificos para poder bindear/vincularnos a estos tipos de atributos.  -->
+<!-- 
+¿Qué es el attribute binding?
+Es una técnica que permite enlazar valores de JavaScript a los atributos de un elemento del DOM de forma dinámica.
+
+¿Para qué sirve?
+Para poner cosas en el DOM desde js. Si tienes la variable let patata = "patata", podrás hacer que aparezca la palabra "patata" fácilmente en el DOM.
+Si luego la variable patata pasa a almacenar la palabra "alcachofa" automáticamente se cambiará en el DOM. 
+Esto no solo sirve para strings, también sirve para clases, css y cualquier otra cosa.
+Para usarlo se pone v-bind: o simplemente :
+
+Un ejemplos
+Con V-bind:
+v-bind:class="[isPromoted && 'promoted', isSoldOut ? 'sold-out' : '']"
+
+Con :
+:class="[isPromoted && 'promoted', isSoldOut ? 'sold-out' : '']"
+
+Este ejemplo adjudica una clase determinada en función a una lógica de JavaScript que está siendo llamada en el mismo HTML. 
+ -->
 
 <!-- HTML HERE -->
 <template>
