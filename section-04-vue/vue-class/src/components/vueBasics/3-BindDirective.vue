@@ -39,8 +39,8 @@ Este ejemplo adjudica una clase determinada en función a una lógica de JavaScr
         Heading - con un ID bindeado dinamicamente desde el script tag - SHORT
         VERSION
       </h2>
+      <hr />
     </div>
-    <hr />
     <!-- Binding Reserved keywords -->
     <div id="binding-reserved-attribute-keywords">
       <!-- Case 1 - Bindeamos unn valor via una variable que es reactive y le pasamos un valor booleanico por defecto! -->
@@ -101,10 +101,13 @@ Este ejemplo adjudica una clase determinada en función a una lógica de JavaScr
         binding css props inside the style attribute through v-bind directive
       </p>
       <!-- Estilos en linea a traves de un approach de 'objetos' -->
-
       <p :style="objectOfStyles">
         Bindeando elementos dentro de un objeto en el script tag dentro del
         atributo "style"
+      </p>
+      <!-- Estilos en linea a traves de un array de objetos -->
+      <p :style="[objectOfStyles, objectOfStylesTwo]">
+        Bindeando un array de objetos dentro del attributo "style"
       </p>
     </div>
   </div>
@@ -140,6 +143,11 @@ const objectOfStyles = reactive({
   color: "purple",
   fontSize: "17px",
   textDecoration: "underline",
+});
+
+const objectOfStylesTwo = ref({
+  marginLeft: "5rem",
+  color: "gray",
 });
 </script>
 
