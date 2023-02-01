@@ -17,6 +17,7 @@
   <!-- Usando interpolacion de texto -->
   <p>{{ favoriteBand }}</p>
 </template>
+
 <script setup>
 import { ref } from "vue";
 

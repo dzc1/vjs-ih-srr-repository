@@ -7,12 +7,13 @@ import BindDirective from "./components/vueBasics/3-BindDirective.vue";
 import ConditionalDirectives from "./components/vueBasics/4-ConditionalDirectives.vue";
 import ConditionalEx from "./components/class-excercises/ConditionalDirectives.vue";
 import IterativeDirective from "./components/vueBasics/5-IterativeDirective.vue";
+import FormDirective from "./components/vueBasics/6-FormDirective.vue";
 </script>
 
 <template>
   <header>
     <div class="wrapper">
-      <HelloWorld msg="Vue Class - Iterative Directives" />
+      <HelloWorld msg="Vue Class - Form Directive Class" />
     </div>
   </header>
   <!-- Declarar los componentes creados de clase dentro del elemento "main" -->
@@ -22,7 +23,8 @@ import IterativeDirective from "./components/vueBasics/5-IterativeDirective.vue"
     <!-- <HtmlDirective /> -->
     <!-- <BindDirective /> -->
     <!-- <ConditionalDirectives /> -->
-    <IterativeDirective />
+    <!-- <IterativeDirective /> -->
+    <FormDirective />
   </main>
 </template>
 
