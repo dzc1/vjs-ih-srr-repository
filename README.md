@@ -246,6 +246,8 @@ Si quieres saber más, visita los siguientes enlaces.
 
 #### Que es Vue?
 
+Vue.js es un framework JavaScript de código abierto para desarrollar aplicaciones web interactivas y user-friendly. Fue diseñado para ser fácil de usar y ofrece una gran cantidad de características para crear aplicaciones sofisticadas, incluyendo un enrutador, un gestor de estado, un sistema de componentes y herramientas de testeo. Con su enfoque en la eficiencia y la facilidad de uso, Vue ha ganado una gran popularidad entre los desarrolladores web.
+
 #### Component Driven Development Approach
 
 Component Driven Development en Vue.js significa desarrollar aplicaciones mediante la creación y composición de componentes reutilizables. Cada componente es una parte pequeña y específica de la aplicación que maneja su propia lógica y presentación. Al combinar estos componentes, se puede construir una aplicación completa y escalable. Es similar a construir un edificio con bloques de construcción: cada bloque representa un componente y al juntarlos se forma un edificio completo.
