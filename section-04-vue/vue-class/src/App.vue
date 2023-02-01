@@ -1,5 +1,6 @@
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue";
+import { ref, reactive } from "vue";
+import PropComponent from "./components/PropComponentClass.vue";
 import MyFirstComponent from "./components/vueBasics/0-MyFirstComponent.vue";
 import TextDirective from "./components/vueBasics/1-TextDirective.vue";
 import HtmlDirective from "./components/vueBasics/2-HtmlDirective.vue";
@@ -9,12 +10,18 @@ import ConditionalEx from "./components/class-excercises/ConditionalDirectivesEx
 import IterativeDirective from "./components/vueBasics/5-IterativeDirective.vue";
 import FormDirective from "./components/vueBasics/6-FormDirective.vue";
 import FormDirectiveEx from "./components/class-excercises/FormDirectiveEx.vue";
+
+const footballTeamCompOne = ref("FC Barcelona");
 </script>
 
 <template>
   <header>
     <div class="wrapper">
-      <HelloWorld msg="Vue Class - Form Directive Class" />
+      <!-- <PropComponent msg="['hello', 'helloTwo']" /> -->
+      <PropComponent msg="" :football-teams="footballTeamCompOne" />
+      <!-- <PropComponent msg="Vue Class - Test" />
+      <PropComponent msg="Vue Class - Pizza" />
+      <PropComponent msg="Vue Class - Music" /> -->
     </div>
   </header>
   <!-- Declarar los componentes creados de clase dentro del elemento "main" -->
@@ -25,7 +32,7 @@ import FormDirectiveEx from "./components/class-excercises/FormDirectiveEx.vue";
     <!-- <BindDirective /> -->
     <!-- <ConditionalDirectives /> -->
     <!-- <IterativeDirective /> -->
-    <FormDirectiveEx />
+    <!-- <FormDirective /> -->
   </main>
 </template>
 

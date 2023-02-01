@@ -242,6 +242,20 @@ Si quieres saber más, visita los siguientes enlaces.
 [MAC shortcuts](https://support.apple.com/es-es/HT201236)
 [MAC VS Code shortcuts](https://manolohidalgo.com/atajos-de-teclado-en-visual-studio-code-para-mac/)
 
+### VUE INTRO
+
+#### Que es Vue?
+
+#### Component Driven Development Approach
+
+Component Driven Development en Vue.js significa desarrollar aplicaciones mediante la creación y composición de componentes reutilizables. Cada componente es una parte pequeña y específica de la aplicación que maneja su propia lógica y presentación. Al combinar estos componentes, se puede construir una aplicación completa y escalable. Es similar a construir un edificio con bloques de construcción: cada bloque representa un componente y al juntarlos se forma un edificio completo.
+
+Analogia:
+
+"Podemos comparar Component Driven Development en Vue.js con la construcción de una casa de acero y vigas. Vue proporciona un marco sólido y resistente que permite construir aplicaciones eficientes y escalables mediante la creación y composición de componentes reutilizables. Cada componente es como una pieza de acero y vigas que se combinan para formar una estructura fuerte y duradera.
+
+Por otro lado, JavaScript Vanilla es como construir una casa de madera. Es una tecnología más básica y no proporciona un marco estructurado para construir aplicaciones, por lo que se requiere más esfuerzo y habilidades técnicas para lograr un resultado eficiente y escalable."
+
 ### VUE Project Installation
 
 #### VUE CLI
