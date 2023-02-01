@@ -222,17 +222,15 @@ const formValues = reactive({
 // Funcion que envia los datos del usuario y los plasma en el nevegador dentro de una alerta nativa
 const submitFormInfo = () => {
   // log de verificacion que recibamos info
-  console.log(`
-        Form Values are ${formValues.formName}
-    `);
+  console.log("Form Values are", formValues);
   // usar metodo nativo de js alert() para darle visibilidad al usuario
   alert(`
         !!EXITO!!
-        Hemos recibido tu solicitud correctamente. Nos pondremos en contacto contigo en los proximos 5-8 dias habiles. 
+        Hemos recibido tu solicitud correctamente. Nos pondremos en contacto contigo en los proximos 5-8 dias habiles.
 
         Gracias por haber aplicado a la NASA V-Europe
 
-        Te confirmamos los datos imputados: 
+        Te confirmamos los datos imputados:
 
         - Nombre: ${formValues.formName}
         - Edad: ${formValues.candidateAge}

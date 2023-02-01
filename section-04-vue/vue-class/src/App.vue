@@ -5,7 +5,7 @@ import TextDirective from "./components/vueBasics/1-TextDirective.vue";
 import HtmlDirective from "./components/vueBasics/2-HtmlDirective.vue";
 import BindDirective from "./components/vueBasics/3-BindDirective.vue";
 import ConditionalDirectives from "./components/vueBasics/4-ConditionalDirectives.vue";
-import ConditionalEx from "./components/class-excercises/ConditionalDirectives.vue";
+import ConditionalEx from "./components/class-excercises/ConditionalDirectivesEx.vue";
 import IterativeDirective from "./components/vueBasics/5-IterativeDirective.vue";
 import FormDirective from "./components/vueBasics/6-FormDirective.vue";
 </script>
