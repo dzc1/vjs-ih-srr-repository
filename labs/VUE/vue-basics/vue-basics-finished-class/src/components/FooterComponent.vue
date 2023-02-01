@@ -8,6 +8,15 @@
       /></a>
       <!-- navigation -->
       <ul>
+        <li v-for="link in navigation">
+          <!-- {{ link }} -->
+          <a :href="link.navRoute" :target="link.navLinkOpenNewTab">{{
+            link.navText
+          }}</a>
+        </li>
+      </ul>
+      <!-- post re-factoring -->
+      <!-- <ul>
         <li><a href="" v-text="navigation[0].navText"></a></li>
         <li>
           <a
@@ -16,7 +25,7 @@
             v-text="navigation[1].navText"
           ></a>
         </li>
-      </ul>
+      </ul> -->
       <!-- buton de login -->
       <button v-text="buttonText"></button>
     </nav>
