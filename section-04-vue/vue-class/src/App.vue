@@ -8,6 +8,7 @@ import ConditionalDirectives from "./components/vueBasics/4-ConditionalDirective
 import ConditionalEx from "./components/class-excercises/ConditionalDirectivesEx.vue";
 import IterativeDirective from "./components/vueBasics/5-IterativeDirective.vue";
 import FormDirective from "./components/vueBasics/6-FormDirective.vue";
+import FormDirectiveEx from "./components/class-excercises/FormDirectiveEx.vue";
 </script>
 
 <template>
@@ -24,7 +25,7 @@ import FormDirective from "./components/vueBasics/6-FormDirective.vue";
     <!-- <BindDirective /> -->
     <!-- <ConditionalDirectives /> -->
     <!-- <IterativeDirective /> -->
-    <FormDirective />
+    <FormDirectiveEx />
   </main>
 </template>
 
