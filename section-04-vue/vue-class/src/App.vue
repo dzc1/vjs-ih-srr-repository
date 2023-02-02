@@ -10,6 +10,7 @@ import ConditionalEx from "./components/class-excercises/ConditionalDirectivesEx
 import IterativeDirective from "./components/vueBasics/5-IterativeDirective.vue";
 import FormDirective from "./components/vueBasics/6-FormDirective.vue";
 import FormDirectiveEx from "./components/class-excercises/FormDirectiveEx.vue";
+import Events from "./components/vueBasics/8-Events.vue";
 
 const footballTeamCompOne = ref("FC Barcelona");
 </script>
@@ -18,10 +19,11 @@ const footballTeamCompOne = ref("FC Barcelona");
   <header>
     <div class="wrapper">
       <!-- <PropComponent msg="['hello', 'helloTwo']" /> -->
-      <PropComponent msg="" :football-teams="footballTeamCompOne" />
+      <!-- <PropComponent msg="" :football-teams="footballTeamCompOne" /> -->
       <!-- <PropComponent msg="Vue Class - Test" />
       <PropComponent msg="Vue Class - Pizza" />
       <PropComponent msg="Vue Class - Music" /> -->
+      <PropComponent msg="Events Class - How to use the v-on direcitve" />
     </div>
   </header>
   <!-- Declarar los componentes creados de clase dentro del elemento "main" -->
@@ -33,6 +35,7 @@ const footballTeamCompOne = ref("FC Barcelona");
     <!-- <ConditionalDirectives /> -->
     <!-- <IterativeDirective /> -->
     <!-- <FormDirective /> -->
+    <Events />
   </main>
 </template>
 
