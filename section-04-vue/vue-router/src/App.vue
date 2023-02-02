@@ -1,18 +1,14 @@
 <script setup>
+import { ref, reactive } from "vue";
 import { RouterLink, RouterView } from "vue-router";
 import HelloWorld from "./components/HelloWorld.vue";
+
+const bandPageRoute = ref("/sublime");
+const foodPageRoute = ref("/pizza");
 </script>
 
 <template>
   <header>
-    <img
-      alt="Vue logo"
-      class="logo"
-      src="@/assets/logo.svg"
-      width="125"
-      height="125"
-    />
-
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
 
@@ -22,6 +18,8 @@ import HelloWorld from "./components/HelloWorld.vue";
         <!-- diff -->
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink :to="bandPageRoute">Sublime - Page</RouterLink>
+        <RouterLink :to="foodPageRoute">Pizza - Page</RouterLink>
       </nav>
     </div>
   </header>
