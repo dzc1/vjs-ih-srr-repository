@@ -25,7 +25,7 @@
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
-  <ol>
+  <ul>
     <li>
       <a href="https://github.com/dzc1/class-jan09/tree/main/section-01-html">HTML Basics</a>
       <ul>
@@ -77,7 +77,7 @@
         <li><a href="">Viernes 27, Enero 2023</a></li>
       </ul>
     </li>
-  </ol>
+  </ul>
 </details>
 
 ## Estructura de Carpetas
