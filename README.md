@@ -24,7 +24,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary style="fontSize: 24px">Table of Contents</summary>
+  <summary style="fontSize:24px">Table of Contents</summary>
   <ol>
     <li>
       <a href="https://github.com/dzc1/class-jan09/tree/main/section-01-html">HTML Basics</a>
