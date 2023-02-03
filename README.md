@@ -47,21 +47,37 @@
       </ul>
     </li>
     <li>
-    <a href="">CSS Basics</a>
+    <a href="https://github.com/dzc1/class-jan09/tree/main/section-02-css">CSS Basics</a>
      <ul>
-     <li><a href="">Back log</a></li>
-        <li><a href="">Lunes 23, Enero 2023</a></li>
-        <li><a href="">Martes 24, Enero 2023</a></li>
-        <li><a href="">Miercoles 25, Enero 2023</a></li>
-        <li><a href="">Jueves 26, Enero 2023</a></li>
-        <li><a href="">Viernes 27, Enero 2023</a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-02-css/01-basics.html">Basics</a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-02-css/02-selectors.html">Selectors</a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-02-css/03-fonts.html">Fonts</a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-02-css/04-text-properties.html">Text Properties</a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-02-css/05-colors.html">Colors</a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-02-css/06-borders-background.html">Borders, Backgrounds and intro to box model</a></li>
+         <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-02-css/07-box-model.html">Box Model, paddings, margins</a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-02-css/08-background-images.html">Background Images</a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-02-css/09-float-align.html">Floats & Alignment</a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-02-css/10-links-buttons.html">Links & Buttons Styling</a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-02-css/11-inline-block.html">Inline Vs Block, the display property</a></li>
+         <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-02-css/12-position.html">Position, absolute - relative - Parents and son's</a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-02-css/13-media-queries.html">Media Queries - Intro</a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-02-css/14-media-queries-expanded.html">Media Queries - Expanded</a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-02-css/15-flex-basics.html">Flex Basics</a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-02-css/16-css-variables.html">Css Variables</a></li>
+         <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-02-css/16-grid-basics.html">Grid Basics</a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-02-css/17-transitions.html">Css Animations - Transitions</a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-02-css/19-keyframes.html">Css Animations - Key Frames</a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-02-css/20-simple-form-styling.html">Styling a Sign Up Form</a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-02-css/21-media-query-example-site.html">Media Query Sample Site</a></li>
+         <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-02-css/22-grid-example-site.html">Css Grid Sample Site</a></li>
       </ul>
     </li>
     <a href="">JS Basics</a>
      <ul>
-     <li><a href="">Back log</a></li>
+        <li><a href="">Basics</a></li>
         <li><a href="">Lunes 23, Enero 2023</a></li>
-        <li><a href="">Martes 24, Enero 2023</a></li>
+        <li><a href=""></a></li>
         <li><a href="">Miercoles 25, Enero 2023</a></li>
         <li><a href="">Jueves 26, Enero 2023</a></li>
         <li><a href="">Viernes 27, Enero 2023</a></li>
@@ -71,7 +87,7 @@
      <ul>
      <li><a href="">Back log</a></li>
         <li><a href="">Lunes 23, Enero 2023</a></li>
-        <li><a href="">Martes 24, Enero 2023</a></li>
+        <li><a href=""></a></li>
         <li><a href="">Miercoles 25, Enero 2023</a></li>
         <li><a href="">Jueves 26, Enero 2023</a></li>
         <li><a href="">Viernes 27, Enero 2023</a></li>
@@ -82,6 +98,7 @@
 
 ## Estructura de Carpetas
 
+<!--
 - [Html Basics](https://github.com/dzc1/class-jan09/tree/main/section-01-html)
   - [Setting up initial html 5 structure using vs code `html:5` shortcut](https://github.com/dzc1/class-jan09/blob/main/section-01-html/00-vscode-shortcut.html)
   - [Basic Layout](https://github.com/dzc1/class-jan09/blob/main/section-01-html/01-basic-layout.html)
@@ -137,7 +154,7 @@
   - [Number Methods](https://github.com/dzc1/class-jan09/blob/main/section-03-js/12-number-methods.js)
   - [Dom Manipulation - Part 1](https://github.com/dzc1/class-jan09/blob/main/section-03-js/13-dom-manipulation.js)
   - [Dom Manipulation - Part 2 - Connect to HTML FILE 'dom'](https://github.com/dzc1/class-jan09/blob/main/section-03-js/15-dom-manipulation-2.js)
-  - [Dom Part 2 - HTML File](https://github.com/dzc1/class-jan09/blob/main/section-03-js/14-dom.html)
+  - [Dom Part 2 - HTML File](https://github.com/dzc1/class-jan09/blob/main/section-03-js/14-dom.html) -->
 
 ## Links de Ayuda
 
