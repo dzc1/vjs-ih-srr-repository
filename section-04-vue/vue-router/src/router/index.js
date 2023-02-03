@@ -3,6 +3,7 @@ import HomeView from "../pages/HomeView.vue";
 import CoolComponent from "../components/CoolComponent.vue";
 import SublimePage from "../pages/BandPage.vue";
 import PizzaPage from "../pages/PizzaPage.vue";
+import FoodCategories from "../pages/FoodCategories.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +33,18 @@ const router = createRouter({
       path: "/pizza",
       name: "Pizza Food Type Info Page",
       component: PizzaPage,
+    },
+    {
+      path: "/food-categories",
+      name: "Page about food categories",
+      component: FoodCategories,
+      children: [
+        {
+          path: "/pizza-child",
+          name: "Pizza Food Type Info Page",
+          component: PizzaPage,
+        },
+      ],
     },
   ],
 });

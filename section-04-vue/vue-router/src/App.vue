@@ -4,7 +4,7 @@ import { RouterLink, RouterView } from "vue-router";
 import HelloWorld from "./components/HelloWorld.vue";
 
 const bandPageRoute = ref("/sublime");
-const foodPageRoute = ref("/pizza");
+const foodPageRoute = ref("/food-categories/pizza-child");
 </script>
 
 <template>

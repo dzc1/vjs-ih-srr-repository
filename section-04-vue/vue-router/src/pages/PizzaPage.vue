@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <h1>ILOVE PIZZA</h1>
     <div class="card">
       <div class="title">
         <div class="title-headings">
