@@ -96,7 +96,7 @@
   </ul>
 </details>
 
-## Estructura de Carpetas
+<!-- ## Estructura de Carpetas -->
 
 <!--
 - [Html Basics](https://github.com/dzc1/class-jan09/tree/main/section-01-html)
