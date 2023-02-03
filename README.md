@@ -20,14 +20,30 @@
 
 [Zoom Link](https://ironhack.zoom.us/j/91218132607)
 
+## Estructura de Carpetas
+
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contentss</summary>
+  <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="">HTML Basics</a>
+      <a href="https://github.com/dzc1/class-jan09/tree/main/section-01-html">HTML Basics</a>
       <ul>
-        <li><a href="">Construido Con</a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-01-html/00-vscode-shortcut.html">Setting up initial html 5 structure using vs code html:5 shortcut</a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-01-html/01-basic-layout.html"> Basic Layout </a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-01-html/02-meta-tags.html"> Meta Tags </a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-01-html/03-typography.html"> Typography </a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-01-html/04-links.html"> Links </a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-01-html/05-images.html"> Images </a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-01-html/06-list.html"> Lists </a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-01-html/07-layout.html"> Layout </a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-01-html/08-layout-example.html"> Layout Example </a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-01-html/09-tables.html"> Tables </a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-01-html/10-inlinve-vs-block.html"> Inline Elements vs Block Elements </a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-01-html/11-ids.html"> Id's </a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-01-html/12-classes.html"> Classes </a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-01-html/13-semantic-example-consolidated.html"> Semantic Examples </a></li>
+        <li><a href="https://github.com/dzc1/class-jan09/blob/main/section-01-html/14-forms.html"> Forms </a></li>
       </ul>
     </li>
     <li>
