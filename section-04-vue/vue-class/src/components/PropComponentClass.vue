@@ -1,4 +1,5 @@
 <script setup>
+import { ref, reactive } from "vue";
 // nombre del metodo
 //defineProps()
 // metodo autoimportado,, cuando trabajamos con el <script setUp ></setup>, tenemos accesso a muchos metodos autoImportados como este por ejemplo.
@@ -14,6 +15,9 @@
 //prop sin regla
 // se define mediante un array no como un objeto como vemos arriba.
 defineProps(["msg", "footballTeams"]);
+// const miFuncion = () => {
+//   alert("I have been clicked");
+// };
 </script>
 
 <template>
@@ -21,6 +25,7 @@ defineProps(["msg", "footballTeams"]);
     <h1 class="green">{{ msg }}</h1>
     <h1 class="green">{{ footballTeams }}</h1>
     <h3>Diego Zito</h3>
+    <!-- <button @click="miFuncion">click me</button> -->
   </div>
 </template>
 

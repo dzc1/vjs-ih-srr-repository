@@ -13,6 +13,10 @@ import FormDirectiveEx from "./components/class-excercises/FormDirectiveEx.vue";
 import Events from "./components/vueBasics/8-Events.vue";
 
 const footballTeamCompOne = ref("FC Barcelona");
+
+const miFuncion = () => {
+  alert("I have been clicked");
+};
 </script>
 
 <template>
