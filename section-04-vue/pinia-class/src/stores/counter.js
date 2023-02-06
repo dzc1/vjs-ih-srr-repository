@@ -12,6 +12,6 @@ export const useCounterStore = defineStore("counter", () => {
   const decrement = () => count.value--;
   // llamamos al hook iinUpdated para monitorear el valor de count y multiplicarlo *4 y registrar ese valor a la consola, para plasmar la info desde el hook.
   onUpdated(() => console.log(count.value * 4));
-
+  // retornamos siempre lo que queremos de manera implicita y destructurado dentro de un objeto
   return { count, doubleCount, increment, myName, decrement };
 });
