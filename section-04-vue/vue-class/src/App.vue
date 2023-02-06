@@ -11,6 +11,7 @@ import IterativeDirective from "./components/vueBasics/5-IterativeDirective.vue"
 import FormDirective from "./components/vueBasics/6-FormDirective.vue";
 import FormDirectiveEx from "./components/class-excercises/FormDirectiveEx.vue";
 import Events from "./components/vueBasics/8-Events.vue";
+import Computed from "./components/vueBasics/13-Computed.vue";
 
 const footballTeamCompOne = ref("FC Barcelona");
 
@@ -27,7 +28,7 @@ const miFuncion = () => {
       <!-- <PropComponent msg="Vue Class - Test" />
       <PropComponent msg="Vue Class - Pizza" />
       <PropComponent msg="Vue Class - Music" /> -->
-      <PropComponent msg="Events Class - How to use the v-on direcitve" />
+      <PropComponent msg="Computed Properties" />
     </div>
   </header>
   <!-- Declarar los componentes creados de clase dentro del elemento "main" -->
@@ -39,7 +40,8 @@ const miFuncion = () => {
     <!-- <ConditionalDirectives /> -->
     <!-- <IterativeDirective /> -->
     <!-- <FormDirective /> -->
-    <Events />
+    <!-- <Events /> -->
+    <Computed />
   </main>
 </template>
 
