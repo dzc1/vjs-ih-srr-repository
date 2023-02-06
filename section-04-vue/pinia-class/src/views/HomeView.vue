@@ -65,6 +65,7 @@ const doubleCount = useCounterStore().doubleCount;
 #data-coming-from-store {
   padding: 2rem;
   border: 1px solid green;
+  margin: 2rem 0;
 }
 </style>
 
