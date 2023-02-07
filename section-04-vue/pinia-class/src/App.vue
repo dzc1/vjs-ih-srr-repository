@@ -11,6 +11,7 @@ import HelloWorld from "./components/HelloWorld.vue";
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/pinia-exercise">Class Exercise</RouterLink>
       </nav>
     </div>
   </header>
