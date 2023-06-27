@@ -1,13 +1,16 @@
 <!-- HTML aca -->
 <template>
-  <!-- Reactividad + Interpolacion Texto - SABA APPROACH -->
+  <!-- Reactividad + Interpolacion Texto  -->
   <section>
     <!-- HTML - puesto a pelo -->
     <div>
       <p>Mi nombre es Diego, naci en Venezuela y tengo 31 años.</p>
 
       <!-- Ejemplo de dato no reactivo -->
-      <p>{{ myNameTwo }}</p>
+      <p>
+        Ejemplo de un dato interpolado no reactivo -
+        <span>{{ myNameTwo }}</span>
+      </p>
     </div>
 
     <!-- HTML - puesto con interpolacion de texto - mejor conocido como nuestro claudators de bigote!!! aka the saba approach! -->
@@ -88,7 +91,7 @@ const myNameTwo = "Diego";
 
 // Tipos de datos primitivos - ref() - strings, numeros, booleanos, nulos===null
 const myName = ref("Diegooo");
-const countryOfBirth = ref("Venezuelaaa");
+const countryOfBirth = ref("Venezuela");
 const age = ref(31);
 const nullValue = ref(null);
 
@@ -156,7 +159,7 @@ const favoriteFoodEx = ref("Comida Mexicana");
 section .counter,
 counter {
   display: flex;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 section .counter button {
   padding: 2rem;

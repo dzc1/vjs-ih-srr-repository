@@ -21,7 +21,6 @@ shorthand directivo
 @ -->
 
 <!-- V-ON === trabajar con eventos en VUE  -->
-<!-- mouseenter -->
 
 <template>
   <section>
@@ -120,9 +119,7 @@ shorthand directivo
     <div class="function-with-events">
       <!-- INSERT CONTEXT LATER -->
       <!-- Ejemplo de un evento que asociamos una funcion chicos que acepte un paramtero que nos diga hola dentro de una alerta, aca refrescamos un poco de js :) -->
-      <button @click="holaClase('Hola chicojkaldjkjfndjksnkjdss!')">
-        Dile hola a la consola
-      </button>
+      <button @click="holaClase('Hola chicos')">Dile hola a la consola</button>
     </div>
     <!-- INSERT CONTEXT LATER -->
     <div class="function-with-events">

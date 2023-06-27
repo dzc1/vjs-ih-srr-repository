@@ -112,7 +112,7 @@ Este ejemplo adjudica una clase determinada en función a una lógica de JavaScr
   </div>
   <hr />
   <!-- Excercise Component  -->
-  <BindDirectiveEx />
+  <!-- <BindDirectiveEx /> -->
 </template>
 
 <!-- JS HERE -->

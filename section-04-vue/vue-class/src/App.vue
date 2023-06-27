@@ -12,6 +12,8 @@ import FormDirective from "./components/vueBasics/6-FormDirective.vue";
 import FormDirectiveEx from "./components/class-excercises/FormDirectiveEx.vue";
 import Events from "./components/vueBasics/8-Events.vue";
 import Computed from "./components/vueBasics/13-Computed.vue";
+import Slots from "./components/vueBasics/10-Slots/Slots.vue";
+import SlothComp from "./components/vueBasics/10-Slots/SlothComp.vue";
 
 const footballTeamCompOne = ref("FC Barcelona");
 
@@ -28,7 +30,7 @@ const miFuncion = () => {
       <!-- <PropComponent msg="Vue Class - Test" />
       <PropComponent msg="Vue Class - Pizza" />
       <PropComponent msg="Vue Class - Music" /> -->
-      <PropComponent msg="Computed Properties" />
+      <!-- <PropComponent msg="Computed Properties" /> -->
     </div>
   </header>
   <!-- Declarar los componentes creados de clase dentro del elemento "main" -->
@@ -41,7 +43,22 @@ const miFuncion = () => {
     <!-- <IterativeDirective /> -->
     <!-- <FormDirective /> -->
     <!-- <Events /> -->
-    <Computed />
+    <!-- <Computed /> -->
+    <!-- <Slots /> -->
+    <SlothComp
+      title="Mi tarjeta"
+      image="tarjeta.jpg"
+      description="Esta es mi tarjeta personalizada"
+    >
+      <button>Hax click</button>
+    </SlothComp>
+    <SlothComp
+      title="Mi tarjeta"
+      image="tarjeta.jpg"
+      description="Esta es mi tarjeta personalizada"
+    >
+      <h1>hello</h1>
+    </SlothComp>
   </main>
 </template>
 

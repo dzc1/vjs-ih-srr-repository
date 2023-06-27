@@ -145,38 +145,38 @@ async function makeBroccoli() {
 makeBroccoli();
 
 // PATRICIA -- ITERATION 3 - BROCCOLI
-// async function makeBroccoli() {
-//   try {
-//     document.querySelector(
-//       "#broccoli"
-//     ).innerHTML += `<li>${await obtainInstruction("broccoli", 0)}</li>`;
-//     document.querySelector(
-//       "#broccoli"
-//     ).innerHTML += `<li>${await obtainInstruction("broccoli", 1)}</li>`;
-//     document.querySelector(
-//       "#broccoli"
-//     ).innerHTML += `<li>${await obtainInstruction("broccoli", 2)}</li>`;
-//     document.querySelector(
-//       "#broccoli"
-//     ).innerHTML += `<li>${await obtainInstruction("broccoli", 3)}</li>`;
-//     document.querySelector(
-//       "#broccoli"
-//     ).innerHTML += `<li>${await obtainInstruction("broccoli", 4)}</li>`;
-//     document.querySelector(
-//       "#broccoli"
-//     ).innerHTML += `<li>${await obtainInstruction("broccoli", 5)}</li>`;
-//     document.querySelector(
-//       "#broccoli"
-//     ).innerHTML += `<li>${await obtainInstruction("broccoli", 6)}</li>`;
-//     document.querySelector(
-//       "#broccoli"
-//     ).innerHTML += `<li>Broccoli is ready!</li>`;
-//     document.querySelector("#broccoliImg").removeAttribute("hidden");
-//   } catch (error) {
-//     console.log(error);
-//   }
-// }
-// makeBroccoli();
+async function makeBroccoli() {
+  try {
+    document.querySelector(
+      "#broccoli"
+    ).innerHTML += `<li>${await obtainInstruction("broccoli", 0)}</li>`;
+    document.querySelector(
+      "#broccoli"
+    ).innerHTML += `<li>${await obtainInstruction("broccoli", 1)}</li>`;
+    document.querySelector(
+      "#broccoli"
+    ).innerHTML += `<li>${await obtainInstruction("broccoli", 2)}</li>`;
+    document.querySelector(
+      "#broccoli"
+    ).innerHTML += `<li>${await obtainInstruction("broccoli", 3)}</li>`;
+    document.querySelector(
+      "#broccoli"
+    ).innerHTML += `<li>${await obtainInstruction("broccoli", 4)}</li>`;
+    document.querySelector(
+      "#broccoli"
+    ).innerHTML += `<li>${await obtainInstruction("broccoli", 5)}</li>`;
+    document.querySelector(
+      "#broccoli"
+    ).innerHTML += `<li>${await obtainInstruction("broccoli", 6)}</li>`;
+    document.querySelector(
+      "#broccoli"
+    ).innerHTML += `<li>Broccoli is ready!</li>`;
+    document.querySelector("#broccoliImg").removeAttribute("hidden");
+  } catch (error) {
+    console.log(error);
+  }
+}
+makeBroccoli();
 
 // -------------
 // Bonus 2 - Promise all
@@ -190,22 +190,22 @@ const paso6 = obtainInstruction("brusselsSprouts", 6);
 const paso7 = obtainInstruction("brusselsSprouts", 7);
 
 // SIN ASYNC AWAIT  - UNCOMMENT PARA MIRAR EL CODIGO EN ACCION
-// Promise.all([paso0, paso1, paso2, paso3, paso4, paso5, paso6, paso7])
-//   // Se encarga de iterar dentro de cada paso que le estamos pasando nosotros y se enecarga de plasmar el paso en el dom
-//   .then((valorDelArray) => {
-//     valorDelArray.forEach((instruccion) => {
-//       document.querySelector(
-//         "#brusselsSprouts"
-//       ).innerHTML += `<li>${instruccion}</li>`;
-//     });
-//     // Se encarga de añadir texto a pelo
-//     document.querySelector(
-//       "#brusselsSprouts"
-//     ).innerHTML += `<li>Yo yo yo my homie them brussels sprouts be ready man, time to eat some grub!</li>`;
-//     // Se encarga de quitar la img
-//     document.querySelector("#brusselsSproutsImg").removeAttribute("hidden");
-//   })
-//   .catch((error) => console.log(error));
+Promise.all([paso0, paso1, paso2, paso3, paso4, paso5, paso6, paso7])
+  // Se encarga de iterar dentro de cada paso que le estamos pasando nosotros y se enecarga de plasmar el paso en el dom
+  .then((valorDelArray) => {
+    valorDelArray.forEach((instruccion) => {
+      document.querySelector(
+        "#brusselsSprouts"
+      ).innerHTML += `<li>${instruccion}</li>`;
+    });
+    // Se encarga de añadir texto a pelo
+    document.querySelector(
+      "#brusselsSprouts"
+    ).innerHTML += `<li>Yo yo yo my homie them brussels sprouts be ready man, time to eat some grub!</li>`;
+    // Se encarga de quitar la img
+    document.querySelector("#brusselsSproutsImg").removeAttribute("hidden");
+  })
+  .catch((error) => console.log(error));
 
 // CON ASYNC AWAIT
 async function makeBrusselsSprouts() {

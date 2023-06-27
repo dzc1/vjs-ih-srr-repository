@@ -17,7 +17,7 @@ document.querySelector("#getText").addEventListener("click", getText);
 
 // Ejemplo 002 - llamando a un doc interno con extension .json - rick&morty
 let getJson = () => {
-  fetch("users.json")
+  fetch("horses.json")
     .then((response) => response.json())
     .then((rickAndMortyInfo) => {
       console.table(rickAndMortyInfo);
@@ -40,12 +40,17 @@ let getJson = () => {
 document.querySelector("#getJson").addEventListener("click", getJson);
 
 // Ejelo 003 - llamando una external PUBLIC API - jsonplaceholder
-let getExternalApi = () => {
-  fetch("https://jsonplaceholder.typicode.com/albums")
-    .then((response) => response.json())
+let getExternalApi = async () => {
+  await fetch("https://jsonplaceholder.typicode.com/albums")
+    .then((response) => {
+      console.log(response);
+      return response.json();
+    })
+    // () => {}
     .then((respuestas) => {
-      console.table(respuestas);
+      console.log(respuestas);
       let infoFromApi = "";
+
       respuestas.forEach((albumInfo) => {
         infoFromApi += `
               <ul>
@@ -66,7 +71,6 @@ document
   .addEventListener("click", getExternalApi);
 
 // Ejemplo 004 - Metodo : "POST" - empujando info a  una external PUBLIC API - jsonplaceholder
-
 let addPost = (e) => {
   // Verificacion y "refrescar" conceptos de semana pasada
   e.preventDefault();

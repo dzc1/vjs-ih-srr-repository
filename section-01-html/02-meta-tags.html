@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- The <html lang="en"> tag is like the starting point of an HTML document, telling both browsers and people that the web page is written in the English language, so everyone knows how to read and understand it. -->
 <html lang="en">
   <head>
     <!-- The charset attribute specifies the character encoding for the HTML
@@ -6,24 +7,64 @@
     character set, which covers almost all of the characters and symbols in the
     world! -->
     <meta charset="UTF-8" />
-    <!-- This meta tag handles compatibility with old Internet Explorer browsers :(, who uses this dman browsers these days... -->
+    <!-- This meta tag handles compatibility with old Internet Explorer browsers :(, who uses this  browser these days.  -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- UPDATE FROM GOOGLE -->
+    <!-- Will Edge browser be discontinued? 
+    Support for the legacy version of the Microsoft Edge desktop app ended on March 9, 2021. The Microsoft Edge Legacy application will no longer receive security updates after that date. -->
 
     <!-- This meta tag provides a mobile-optimized site that is ready to be presented on all viewports. Not all devices are the same width; thats why we implement such element to provide  good working canvas for all types of screens -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- This meta tag provides information for any type of crawler of individual who is using a screen reader -->
+    <!-- This meta tag provides information for the browser parser engine and it helps webCrawlers like google parse through your website's description in order to provide context to the search engine. -->
+    <!-- Also, this tag can be used by the browsers native screen reader or external screen readers added as addOns for web accesibility.  -->
     <meta
       name="description"
-      content="This is a website to showcase how html is parsed within the browser. Wu Tang, for the children."
+      content="This is my first website, I am so thrilled to start on this journey"
     />
-    <!-- This meta tag provides the ability to inyect related keywords to increase size exposure to SEO segmentation -->
+    <!-- This meta tag provides the ability to inyect related keywords to increase size exposure to SEO segmentation through anySesarch engine that this website's is accessed-->
     <meta
       name="keywords"
-      content="web development, web design, html, css, ironhack, wutang"
+      content="web development, web design, html, css, js, react, mongo, mongoDB, NODE, mongoose, tailwindCSS, react-router, technigo"
     />
-    <title>Document</title>
+    <!-- This tag is used to specify the title of the web page.  -->
+    <title>My First Website - Technigo</title>
   </head>
   <body>
-    <h1>meta tag website</h1>
+    <!-- The <header> tag represents the introductory content or a container for a group of introductory content within a web page. It typically includes elements like headings, logos, or navigation menus. -->
+    <header>
+      <!-- The <h1> tag represents the main heading of the page, indicating the most important title or heading on the page. In this case, it displays the text "My Website". -->
+      <h1>My Website Title</h1>
+      <!-- The <nav> tag is used to define a section of navigation links or a navigation menu.  -->
+      <nav>
+        <!-- Navigation links here -->
+      </nav>
+    </header>
+    <!-- The <main> tag represents the main content area of the web page. It holds the primary content that is unique to the page and is not repeated across multiple pages. -->
+    <!-- This tag has a semantic meaning which we will dive later in the course, but in essence a semantic tag is an HTML element that conveys meaning and describes the structure or purpose of the content it contains. -->
+    <main>
+      <!-- The <section> tag represents a standalone section within a document or web page. It is often used to divide the content into logical and thematic sections. In this example, there are sections for "About," "Products," and "Contact". -->
+      <section>
+        <h2>About</h2>
+        <!-- Content about the website here -->
+      </section>
+
+      <!-- The <section> tag represents a standalone section within a document or web page. It is often used to divide the content into logical and thematic sections. In this example, there are sections for "Products".  -->
+      <section>
+        <!-- The <h2> tag represents a subheading within a section. It provides a hierarchical structure to the headings, where <h1> is the highest level and <h2> is a lower level heading. -->
+        <h2>Products</h2>
+        <!-- Product listings and details here -->
+      </section>
+
+      <!-- The <section> tag represents a standalone section within a document or web page. It is often used to divide the content into logical and thematic sections. In this example, there are sections for "Contact".  -->
+      <section>
+        <h2>Contact</h2>
+        <!-- Contact form and information here -->
+      </section>
+    </main>
+
+    <!-- The <footer> tag represents the footer section of a web page. It typically contains information such as copyright notices, links to terms of service or privacy policy, and other supplementary content. -->
+    <footer>
+      <!-- Footer content here -->
+    </footer>
   </body>
 </html>
